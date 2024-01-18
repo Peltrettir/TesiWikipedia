@@ -5,7 +5,8 @@
 * Magneti superconduttori [Wikipedia](https://en.wikipedia.org/wiki/Superconducting_magnet)
 * Fili superconduttori [Wikipedia](https://en.wikipedia.org/wiki/Superconducting_wire)
 * Spettroscopia Wikipedia [eng](https://en.wikipedia.org/wiki/Spectroscopy), [it](https://it.wikipedia.org/wiki/Spettroscopia)
-* spettroscopia laser ultraveloce [Wikipedia](https://en.wikipedia.org/wiki/Ultrafast_laser_spectroscopy)
+* spettroscopia laser ultraveloce Wikipedia[eng](https://en.wikipedia.org/wiki/Ultrafast_laser_spectroscopy)
+* interferometro Wikipedia [it](https://it.wikipedia.org/wiki/Interferometro)
 
 Delle voci elencate quella che mi interessa di più è la [spettroscopia](#spettroscopia). La pagina in inglese è ben realizzata e fornisce ben più che uno scheletro su cui costruire la pagina italiana, inoltre prendendo ispirazione dalla struttura della tesi di [Giulia Faletti](./Riferimenti%20tesi%20precedenti/Esposizione%20divulgativa%20sul%20tema%20della%20tribologia%20ai%20fini%20della%20pubblicazione%20sull'enciclopedia%20online%20Wikipedia.pdf) credo di poter fare un bel lavoro in tempi brevi.
 
@@ -45,6 +46,10 @@ Delle voci elencate quella che mi interessa di più è la [spettroscopia](#spett
 ## Indice
 
 1. Storia
+   1. osservazione delle componenti della luce
+   2. stelle e saggio alla fiamma -> spettri diversi
+   3. 17/18 secolo, i primi studi di ottica: luce corpuscolare
+   4. 19/20 secolo spettrometri e diffrazione: luce onda, spettri emissione/assorbimento
 2. Fisica
 3. Tecniche e applicazioni
 4. Curiosità
