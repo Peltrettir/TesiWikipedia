@@ -1,0 +1,55 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{naturalisHistoria}{book}{}
+      \name{author}{1}{}{%
+        {{hash=bd59a87bc1aab9708e86af1aee20d941}{%
+           family={Plinius\bibnamedelima Secundus},
+           familyi={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Gaius},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd59a87bc1aab9708e86af1aee20d941}
+      \strng{fullhash}{bd59a87bc1aab9708e86af1aee20d941}
+      \strng{bibnamehash}{bd59a87bc1aab9708e86af1aee20d941}
+      \strng{authorbibnamehash}{bd59a87bc1aab9708e86af1aee20d941}
+      \strng{authornamehash}{bd59a87bc1aab9708e86af1aee20d941}
+      \strng{authorfullhash}{bd59a87bc1aab9708e86af1aee20d941}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{52}
+      \field{title}{Naturalis Historia}
+      \field{volume}{37}
+      \field{pages}{167}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://books.google.it/books?id=oHlGAAAAYAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.it/books?id=oHlGAAAAYAAJ
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
