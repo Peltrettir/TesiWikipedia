@@ -1,0 +1,279 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{lih2009wikipedia}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=63645a34eb13c90a21ea6fe79e58d48f}{%
+           family={Lih},
+           familyi={L\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hyperion}%
+      }
+      \strng{namehash}{63645a34eb13c90a21ea6fe79e58d48f}
+      \strng{fullhash}{63645a34eb13c90a21ea6fe79e58d48f}
+      \strng{fullhashraw}{63645a34eb13c90a21ea6fe79e58d48f}
+      \strng{bibnamehash}{63645a34eb13c90a21ea6fe79e58d48f}
+      \strng{authorbibnamehash}{63645a34eb13c90a21ea6fe79e58d48f}
+      \strng{authornamehash}{63645a34eb13c90a21ea6fe79e58d48f}
+      \strng{authorfullhash}{63645a34eb13c90a21ea6fe79e58d48f}
+      \strng{authorfullhashraw}{63645a34eb13c90a21ea6fe79e58d48f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Wikipedia Revolution: How a Bunch of Nobodies Created the World's Greatest Encyclopedia}
+      \field{year}{2009}
+    \endentry
+    \entry{history_of_wikis}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhashraw}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhashraw}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-05-13}
+      \field{title}{History of wikis}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/History_of_wikis
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/History_of_wikis
+      \endverb
+    \endentry
+    \entry{ebersbach2008wiki}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=84e7a494e3f9788623c071f428b90d0e}{%
+           family={Ebersbach},
+           familyi={E\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bfae5c5adcda9a8e8fb675eb076ba93c}{%
+           family={Glaser},
+           familyi={G\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d31d2e9226766c07c0c7df657004ed97}{%
+           family={Heigl},
+           familyi={H\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=03f1bb749249efac5650b2e64dc02efa}{%
+           family={Warta},
+           familyi={W\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{1263d6345159df9d9e4c89ecdac312bd}
+      \strng{fullhash}{d43cf9e803c757a98eedbab1264d71dd}
+      \strng{fullhashraw}{d43cf9e803c757a98eedbab1264d71dd}
+      \strng{bibnamehash}{1263d6345159df9d9e4c89ecdac312bd}
+      \strng{authorbibnamehash}{1263d6345159df9d9e4c89ecdac312bd}
+      \strng{authornamehash}{1263d6345159df9d9e4c89ecdac312bd}
+      \strng{authorfullhash}{d43cf9e803c757a98eedbab1264d71dd}
+      \strng{authorfullhashraw}{d43cf9e803c757a98eedbab1264d71dd}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wiki: Web Collaboration}
+      \field{year}{2008}
+    \endentry
+    \entry{reagle2010good}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b8872f92cc87e35dee78c915037eddd8}{%
+           family={Reagle},
+           familyi={R\bibinitperiod},
+           given={Joseph\bibnamedelima Michael},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{fullhash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{fullhashraw}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{bibnamehash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{authorbibnamehash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{authornamehash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{authorfullhash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{authorfullhashraw}{b8872f92cc87e35dee78c915037eddd8}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Good Faith Collaboration: The Culture of Wikipedia}
+      \field{year}{2010}
+    \endentry
+    \entry{denning2005wikipedia}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c466deb7ebc32fdd92a6c470c15bda5b}{%
+           family={Denning},
+           familyi={D\bibinitperiod},
+           given={Peter\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6e8d378ef88efbd46b746d297c4efa82}{%
+           family={Horning},
+           familyi={H\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4125dab477eb52a2cfd72abc04be3e73}{%
+           family={Parnas},
+           familyi={P\bibinitperiod},
+           given={David\bibnamedelima L},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=460360474a733fbfd48aaee923e46389}{%
+           family={Weinstein},
+           familyi={W\bibinitperiod},
+           given={Lauren},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{0511f0f4e72a1daa421f388ccb90acec}
+      \strng{fullhash}{8c16005b782f59ea553bdb53df1bac42}
+      \strng{fullhashraw}{8c16005b782f59ea553bdb53df1bac42}
+      \strng{bibnamehash}{0511f0f4e72a1daa421f388ccb90acec}
+      \strng{authorbibnamehash}{0511f0f4e72a1daa421f388ccb90acec}
+      \strng{authornamehash}{0511f0f4e72a1daa421f388ccb90acec}
+      \strng{authorfullhash}{8c16005b782f59ea553bdb53df1bac42}
+      \strng{authorfullhashraw}{8c16005b782f59ea553bdb53df1bac42}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications of the ACM}
+      \field{number}{12}
+      \field{title}{Wikipedia risks and challenges}
+      \field{volume}{48}
+      \field{year}{2005}
+      \field{pages}{152\bibrangedash 159}
+      \range{pages}{8}
+    \endentry
+    \entry{jemielniak2014wikipedia}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=941d2c45e987896039a4667e906e6529}{%
+           family={Jemielniak},
+           familyi={J\bibinitperiod},
+           given={Dariusz},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {First Monday}%
+      }
+      \strng{namehash}{941d2c45e987896039a4667e906e6529}
+      \strng{fullhash}{941d2c45e987896039a4667e906e6529}
+      \strng{fullhashraw}{941d2c45e987896039a4667e906e6529}
+      \strng{bibnamehash}{941d2c45e987896039a4667e906e6529}
+      \strng{authorbibnamehash}{941d2c45e987896039a4667e906e6529}
+      \strng{authornamehash}{941d2c45e987896039a4667e906e6529}
+      \strng{authorfullhash}{941d2c45e987896039a4667e906e6529}
+      \strng{authorfullhashraw}{941d2c45e987896039a4667e906e6529}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{First Monday}
+      \field{number}{6}
+      \field{title}{Wikipedia: Collaborative web-based writing in a globalized world}
+      \field{volume}{19}
+      \field{year}{2014}
+    \endentry
+    \entry{cunningham2001wiki}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=dc98036d5d01f88b9fdd0b5ff2bc8a2d}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={Ward},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{fullhash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{fullhashraw}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{bibnamehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{authorbibnamehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{authornamehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{authorfullhash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{authorfullhashraw}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://c2.com/doc/wikisym/WikiSym2006/cunningham.html}}
+      \field{note}{Accessed: 2024-05-13}
+      \field{title}{Wiki History}
+      \field{year}{2001}
+    \endentry
+    \entry{giles2005nature}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7c13311c4e39ffe96de7981cea791ced}{%
+           family={Giles},
+           familyi={G\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{7c13311c4e39ffe96de7981cea791ced}
+      \strng{fullhash}{7c13311c4e39ffe96de7981cea791ced}
+      \strng{fullhashraw}{7c13311c4e39ffe96de7981cea791ced}
+      \strng{bibnamehash}{7c13311c4e39ffe96de7981cea791ced}
+      \strng{authorbibnamehash}{7c13311c4e39ffe96de7981cea791ced}
+      \strng{authornamehash}{7c13311c4e39ffe96de7981cea791ced}
+      \strng{authorfullhash}{7c13311c4e39ffe96de7981cea791ced}
+      \strng{authorfullhashraw}{7c13311c4e39ffe96de7981cea791ced}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7070}
+      \field{title}{Internet encyclopaedias go head to head}
+      \field{volume}{438}
+      \field{year}{2005}
+      \field{pages}{900\bibrangedash 901}
+      \range{pages}{2}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

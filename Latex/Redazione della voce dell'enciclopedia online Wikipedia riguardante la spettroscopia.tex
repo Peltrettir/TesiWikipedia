@@ -1,0 +1,297 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[italian]{babel}
+\usepackage{newlfont}
+\usepackage{ragged2e}
+\usepackage{csquotes}
+\usepackage{hyperref}
+
+%Bibliografia
+\usepackage[style=numeric,sorting=none]{biblatex}
+\addbibresource{bibliografia.bib}
+
+\textwidth=450pt\oddsidemargin=0pt
+
+\begin{document}
+\begin{titlepage}
+
+\begin{center}
+{{\Large{\textsc{Alma Mater Studiorum $\cdot$ Universit\`a di Bologna}}}} 
+\rule[0.1cm]{15.8cm}{0.1mm}
+\rule[0.5cm]{15.8cm}{0.6mm}
+\\\vspace{3mm}
+
+{\small{\bf Scuola di Scienze \\ 
+Dipartimento di Fisica e Astronomia\\
+Corso di Laurea in Fisica}}
+
+\end{center}
+
+\vspace{23mm}
+
+\begin{center}\
+{\LARGE{\bf Redazione della voce dell'enciclopedia online Wikipedia riguardante la Spettroscopia}}\\
+\end{center}
+
+\vspace{50mm} \par \noindent
+
+\begin{minipage}[t]{0.47\textwidth}\raggedright 
+{\large{\bf Relatore: \vspace{2mm}\\
+Prof. Enrico Gianfranco Campari
+}}
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}[t]{0.47\textwidth}\raggedleft
+{\large{\bf Presentata da:
+\vspace{2mm}\\
+Riccardo Peltretti}}
+\end{minipage}
+
+\vspace{40mm}
+
+\begin{center}
+Anno Accademico 2023/2024
+\end{center}
+
+\end{titlepage}
+
+\vspace*{\fill}
+\begin{flushright}
+It is a good thing for an uneducated man to read books of quotations
+\end{flushright}
+\vspace*{\fill}\newpage
+
+\tableofcontents
+\newpage
+
+\chapter{Wikipedia: stora e impatto sulla divulgazione}
+\section{Introduzione a Wikipedia}
+\subsection{Cos'è Wikipedia}
+\paragraph*{}
+Wikipedia è un'enciclopedia online gratuita, collaborativa e multilingue, fondata il 15 gennaio 2001 da Jimmy Wales e Larry Sanger \cite{lih2009wikipedia}. Il nome è composto dal prefisso \textit{wiki}, e dal suffisso di origine greca \textit{-pedia}, la conoscenza. Un wiki è un tipo di sito web che permette la creazione e la modifica collaborativa di una pluralità di pagine interconnesse attraverso un'interfaccia semplice e intuitiva. Il primo software wiki, WikiWikiWeb, fu sviluppato da Ward Cunningham nel 1995, con l'obiettivo di facilitare la condivisione e l'organizzazione collaborativa delle informazioni \cite{history_of_wikis}. Da allora, i wiki sono stati adottati in molti contesti, dai progetti di documentazione aziendale alle piattaforme educative e di ricerca \cite{ebersbach2008wiki}. Etimologicamente, la parola \textit{wiki} è la troncatura di \textit{wikiwiki}, parola di origine hawaiana che significa "veloce". Wikipedia significa dunque \textit{conoscenza veloce}.
+\paragraph*{}
+Wikipedia è progettata per permettere a chiunque di contribuire alle sue voci. Questo approccio aperto e collaborativo consente una rapida crescita e aggiornamento dei contenuti, rendendola una risorsa in continua evoluzione \cite{reagle2010good}. Gli utenti possono creare nuove pagine, aggiornare quelle esistenti e correggere eventuali errori, contribuendo a mantenere un vasto database di conoscenza.
+\paragraph*{}
+Wikipedia è accessibile a chiunque abbia una connessione Internet. Gli utenti possono consultare le voci senza necessità di registrarsi, mentre per contribuire con nuove informazioni o modificare quelle esistenti è possibile operare anche in modo anonimo, sebbene creare un account offra ulteriori vantaggi e funzionalità. L'interfaccia è progettata per essere intuitiva, permettendo agli utenti di aggiungere e modificare contenuti facilmente.
+\paragraph*{}
+Le voci di Wikipedia sono organizzate in modo ipertestuale, con numerosi link interni che connettono argomenti correlati. Questa struttura facilita la navigazione e permette ai lettori di esplorare un argomento in profondità. Ogni pagina contiene una sezione di riferimento dove sono elencate le fonti utilizzate, garantendo la verificabilità delle informazioni \cite{denning2005wikipedia}.
+\paragraph*{}
+Wikipedia è mantenuta da una vasta comunità di volontari, noti come Wikipediani. Questi utenti contribuiscono alla creazione, revisione e manutenzione delle voci. Esistono diverse categorie di utenti con ruoli specifici, come gli amministratori, che hanno accesso a strumenti avanzati per la gestione del sito, e i revisori, che controllano la qualità dei contenuti \cite{jemielniak2014wikipedia}. Le modifiche alle voci sono monitorate tramite una cronologia delle revisioni, che registra ogni cambiamento e permette di ripristinare versioni precedenti in caso di errori o vandalismi. Inoltre, Wikipedia dispone di meccanismi di discussione attraverso le pagine di discussione, dove gli utenti possono confrontarsi su come migliorare le voci.
+\paragraph*{}
+Wikipedia opera secondo una serie di principi fondamentali, tra cui:
+\begin{itemize}
+    \item \textbf{Neutralità:} Le voci devono essere scritte in modo imparziale, presentando i fatti senza pregiudizi.
+    \item \textbf{Verificabilità:} Ogni informazione deve essere supportata da fonti affidabili e citabili.
+    \item \textbf{Contenuto Libero:} Tutti i testi e i media pubblicati su Wikipedia sono disponibili per essere utilizzati, modificati e distribuiti liberamente.
+\end{itemize}
+Queste linee guida aiutano a mantenere la qualità e l'affidabilità delle informazioni, garantendo che Wikipedia rimanga una risorsa utile e rispettabile.
+\paragraph*{}
+Wikipedia ha avuto un impatto significativo come risorsa educativa e informativa. È utilizzata ampiamente nelle scuole e nelle università come strumento di riferimento e di studio. Grazie alla sua natura multilingue, Wikipedia rende la conoscenza accessibile a un pubblico globale, abbattendo le barriere linguistiche e culturali \cite{history_of_wikis}.
+\paragraph*{}
+In conclusione, Wikipedia rappresenta un modello innovativo di diffusione della conoscenza, basato sulla collaborazione aperta e sulla partecipazione volontaria. La sua crescita e il suo successo sono testimonianza della potenza del sapere collettivo e della capacità della tecnologia di democratizzare l'accesso all'informazione.
+
+\subsection{Principi e obiettivi}
+\paragraph*{}
+Wikipedia opera secondo una serie di principi fondamentali che ne guidano il funzionamento e ne assicurano l'integrità e la qualità delle informazioni. Questi principi sono essenziali per mantenere la fiducia degli utenti e per garantire che Wikipedia rimanga una risorsa utile e rispettabile.
+\paragraph*{}
+Uno dei principi cardine di Wikipedia è il punto di vista neutrale (NPOV - Neutral Point Of View). Questo significa che tutte le voci devono essere scritte in modo imparziale, presentando i fatti senza pregiudizi. Gli articoli devono riflettere in maniera equa e proporzionata i diversi punti di vista su un argomento, evitando di favorire una particolare prospettiva \cite{reagle2010good}. Il principio di neutralità è fondamentale per garantire che Wikipedia sia una fonte di informazioni affidabile e credibile.
+\paragraph*{}
+La verificabilità è un altro principio cruciale di Wikipedia. Ogni informazione contenuta nelle voci deve essere supportata da fonti affidabili che possono essere controllate dai lettori. Questo significa che gli editori di Wikipedia devono citare le fonti delle informazioni che aggiungono, permettendo così ai lettori di verificare l'accuratezza dei contenuti \cite{denning2005wikipedia}. Le fonti devono essere pubblicate e accessibili, come libri, articoli accademici, giornali e altre pubblicazioni di qualità.
+\paragraph*{}
+Tutti i testi e i media pubblicati su Wikipedia sono disponibili sotto licenze libere, come la Creative Commons Attribution-ShareAlike License (CC BY-SA). Questo principio di contenuto libero permette a chiunque di utilizzare, modificare e distribuire i contenuti di Wikipedia, purché venga data attribuzione agli autori originali e le opere derivate siano distribuite con la stessa licenza \cite{jemielniak2014wikipedia}. La licenza libera promuove la diffusione della conoscenza e consente la creazione di opere derivate, contribuendo all'espansione del sapere.
+\paragraph*{}
+Gli utenti di Wikipedia devono seguire una serie di linee guida editoriali che aiutano a mantenere la coerenza e la qualità delle voci. Queste linee guida includono la citazione delle fonti, l'evitare conflitti di interesse, e il rispetto delle politiche di copyright. Inoltre, le voci devono essere scritte in modo chiaro e comprensibile, evitando l'uso di linguaggio tecnico non necessario.
+\paragraph*{}
+Wikipedia è costruita sulla base della collaborazione aperta. La comunità di Wikipedia è composta da volontari di tutto il mondo che contribuiscono a creare, modificare e migliorare le voci. Gli utenti possono discutere sulle modifiche da apportare alle voci nelle pagine di discussione, favorendo un ambiente di collaborazione e miglioramento continuo \cite{reagle2010good}. La comunità è supportata da una struttura di amministratori e revisori che aiutano a mantenere l'ordine e a risolvere le dispute.
+\paragraph*{}
+Wikipedia si impegna a migliorare continuamente la sua piattaforma e i suoi contenuti. Questo include l'aggiornamento delle tecnologie utilizzate, l'introduzione di nuove funzionalità per facilitare la collaborazione e la modifica dei contenuti, e l'implementazione di strumenti per migliorare la qualità delle voci. L'innovazione continua è essenziale per mantenere Wikipedia al passo con le esigenze degli utenti e le evoluzioni della tecnologia \cite{history_of_wikis}.
+\paragraph*{}
+In sintesi, i principi e gli obiettivi di Wikipedia sono progettati per creare un'enciclopedia affidabile, imparziale e accessibile a tutti. Questi principi aiutano a mantenere l'integrità e la qualità delle informazioni, garantendo che Wikipedia rimanga una risorsa preziosa per la conoscenza globale.
+
+\subsection{Struttura e funzionamento generale}
+\paragraph*{}
+Wikipedia si basa su un software wiki che consente la modifica collaborativa delle pagine da parte degli utenti. La piattaforma utilizza il software MediaWiki, che è stato sviluppato appositamente per Wikipedia e altre iniziative del movimento Wikimedia \cite{denning2005wikipedia}. MediaWiki è un potente software open source che offre numerose funzionalità avanzate per la gestione dei contenuti, il controllo delle versioni e la collaborazione in tempo reale.
+\paragraph*{}
+Gli utenti possono contribuire anonimamente o creare un account per ottenere ulteriori funzionalità. La creazione di un account permette di tenere traccia delle modifiche effettuate, discutere con altri utenti e partecipare più attivamente alla comunità. Ogni pagina di Wikipedia dispone di una cronologia delle modifiche, che registra tutte le versioni precedenti della pagina, consentendo agli utenti di ripristinare versioni precedenti in caso di vandalismo o errori.
+\paragraph*{}
+Le pagine di Wikipedia sono organizzate in modo ipertestuale, con numerosi link interni che connettono argomenti correlati. Questa struttura facilita la navigazione e permette ai lettori di esplorare un argomento in profondità. Ogni pagina contiene una sezione di riferimento dove sono elencate le fonti utilizzate, garantendo la verificabilità delle informazioni. La struttura ipertestuale e la facilità di navigazione sono elementi chiave che contribuiscono all'efficacia di Wikipedia come risorsa educativa \cite{reagle2010good}.
+\paragraph*{}
+Un aspetto fondamentale del funzionamento di Wikipedia è il sistema di controllo delle modifiche. Ogni modifica effettuata su una pagina viene registrata e può essere visualizzata nella cronologia della pagina stessa. Questo permette agli utenti di monitorare i cambiamenti e di intervenire rapidamente in caso di vandalismi o aggiunte di informazioni non accurate. Inoltre, le pagine di discussione associate a ciascuna voce consentono agli utenti di confrontarsi sulle modifiche da apportare, promuovendo un ambiente di collaborazione e miglioramento continuo \cite{jemielniak2014wikipedia}.
+\paragraph*{}
+Wikipedia adotta un modello di gestione decentralizzato, in cui la comunità degli utenti svolge un ruolo cruciale nel mantenimento e nella qualità delle voci. Gli amministratori, eletti dalla comunità, hanno accesso a strumenti avanzati per la gestione del sito e per la risoluzione delle dispute. Essi possono bloccare utenti problematici, proteggere pagine sensibili e intervenire nei conflitti editoriali \cite{denning2005wikipedia}.
+\paragraph*{}
+Inoltre, Wikipedia utilizza una serie di bot, ovvero programmi automatizzati, per eseguire compiti ripetitivi come il controllo dei link interrotti, la rimozione di spam e l'aggiornamento delle informazioni. Questi bot contribuiscono a mantenere l'enciclopedia in ordine e a garantire che le informazioni siano sempre aggiornate \cite{history_of_wikis}.
+\paragraph*{}
+In sintesi, la struttura e il funzionamento generale di Wikipedia si basano su un software avanzato e su una comunità collaborativa, supportata da un sistema di controllo delle modifiche e da strumenti automatizzati che garantiscono la qualità e l'affidabilità delle informazioni.
+
+\section{Storia di Wikipedia}
+\subsection{Le origini e la fondazione (2001)}
+Wikipedia è stata fondata il 15 gennaio 2001 da Jimmy Wales e Larry Sanger. L'idea di creare un'enciclopedia online libera e collaborativa nacque dal progetto Nupedia, un'enciclopedia online scritta da esperti e revisionata in modo rigoroso. Nupedia, fondata da Jimmy Wales, era un progetto ambizioso ma soffriva di lentezza nel processo di revisione, che limitava la rapida crescita del contenuto \cite{lih2009wikipedia}.
+\paragraph*{}
+Per superare questi limiti, Larry Sanger, che lavorava come redattore capo di Nupedia, propose di utilizzare un modello wiki per accelerare il processo di creazione e revisione delle voci. Un wiki è un tipo di sito web che consente a chiunque di modificare e aggiungere contenuti in modo semplice e rapido. L'idea era quella di permettere agli utenti di collaborare direttamente nella stesura delle voci, con la possibilità di correggere e migliorare continuamente i contenuti \cite{reagle2010good}.
+\paragraph*{}
+Il 15 gennaio 2001, Wikipedia fu lanciata ufficialmente come un progetto complementare a Nupedia. Inizialmente, Wikipedia era vista come un esperimento per supportare Nupedia, ma presto dimostrò di avere un potenziale molto maggiore. Grazie alla sua natura aperta e collaborativa, Wikipedia crebbe rapidamente, attirando contributi da parte di utenti di tutto il mondo. Entro il primo anno, Wikipedia aveva già raccolto migliaia di voci in diverse lingue \cite{jemielniak2014wikipedia}.
+\paragraph*{}
+Il nome "Wikipedia" è una fusione delle parole "wiki" e "encyclopedia". Il termine "wiki" deriva dalla parola hawaiana "wikiwiki", che significa "veloce" o "rapido". Questa scelta rifletteva l'obiettivo di creare un'enciclopedia che potesse essere rapidamente modificata e aggiornata da chiunque avesse accesso a Internet \cite{cunningham2001wiki}.
+\paragraph*{}
+La filosofia alla base di Wikipedia era quella di creare una risorsa di conoscenza libera e accessibile a tutti, basata sui principi di neutralità, verificabilità e contenuto libero. Questo approccio democratizzava l'accesso alla conoscenza e permetteva la creazione di contenuti in modo collaborativo, sfruttando l'intelligenza collettiva della comunità globale \cite{denning2005wikipedia}.
+\paragraph*{}
+In sintesi, le origini di Wikipedia nel 2001 rappresentarono un momento cruciale nella storia della diffusione della conoscenza. Da un esperimento nato per supportare Nupedia, Wikipedia si trasformò rapidamente in uno dei principali punti di riferimento per l'informazione online, grazie alla sua natura aperta e collaborativa.
+
+\subsection{Evoluzione e crescita nel tempo}
+
+Dalla sua fondazione nel 2001, Wikipedia ha conosciuto una crescita esponenziale, diventando una delle principali fonti di informazione su Internet. Nei primi anni, il progetto attirò rapidamente l'attenzione di utenti di tutto il mondo, grazie alla sua natura aperta e collaborativa che permetteva a chiunque di contribuire al contenuto dell'enciclopedia \cite{lih2009wikipedia}.
+\paragraph*{}
+Nel 2003, fu creata la Wikimedia Foundation, un'organizzazione senza scopo di lucro, per supportare Wikipedia e i suoi progetti correlati. La fondazione si occupa della raccolta di fondi, del supporto tecnico e della promozione della missione di Wikipedia di fornire contenuti liberi e accessibili a tutti \cite{reagle2010good}. La creazione della Wikimedia Foundation ha permesso a Wikipedia di ottenere maggiore stabilità e risorse per continuare a crescere.
+\paragraph*{}
+Nel corso degli anni, Wikipedia ha introdotto numerose funzionalità e miglioramenti tecnici. Ad esempio, nel 2004 fu implementato il sistema di categorie, che permette di organizzare le voci in gruppi tematici, facilitando la navigazione e la ricerca delle informazioni \cite{jemielniak2014wikipedia}. Nel 2007, fu lanciato il VisualEditor, uno strumento che consente agli utenti di modificare le voci utilizzando un'interfaccia WYSIWYG (What You See Is What You Get), rendendo più semplice la partecipazione anche per coloro che non hanno familiarità con il markup wiki \cite{history_of_wikis}.
+\paragraph*{}
+La comunità di Wikipedia ha continuato a crescere, con un numero sempre maggiore di utenti che contribuiscono al miglioramento e all'espansione delle voci. La partecipazione attiva della comunità è uno degli elementi chiave del successo di Wikipedia, poiché permette una revisione continua e collaborativa dei contenuti. Gli utenti possono discutere sulle modifiche da apportare alle voci nelle pagine di discussione, promuovendo un ambiente di collaborazione e miglioramento continuo \cite{denning2005wikipedia}.
+\paragraph*{}
+Wikipedia è diventata disponibile in un numero crescente di lingue, riflettendo la sua missione di rendere la conoscenza accessibile a livello globale. Attualmente, Wikipedia esiste in oltre 300 lingue, con milioni di voci che coprono una vasta gamma di argomenti. Le edizioni in lingue diverse dall'inglese continuano a crescere, contribuendo a rendere Wikipedia una risorsa veramente globale \cite{reagle2010good}.
+\paragraph*{}
+Nel corso degli anni, Wikipedia ha affrontato e superato numerose sfide, tra cui problemi di vandalismo, questioni di qualità delle informazioni e critiche sulla sua affidabilità. Per affrontare questi problemi, la comunità di Wikipedia ha sviluppato una serie di politiche e linee guida, come il controllo delle modifiche e l'adozione di strumenti automatizzati (bot) per monitorare e migliorare la qualità dei contenuti \cite{jemielniak2014wikipedia}.
+\paragraph*{}
+Grazie a questi sforzi, Wikipedia è diventata una delle risorse più consultate al mondo, utilizzata quotidianamente da milioni di persone per ottenere informazioni su una vasta gamma di argomenti. La sua evoluzione e crescita nel tempo dimostrano il potere della collaborazione aperta e della condivisione della conoscenza.
+
+\paragraph*{}
+Nel 2003, la creazione della Wikimedia Foundation rappresentò un importante passo avanti per Wikipedia. La fondazione, una organizzazione senza scopo di lucro, fu istituita per fornire supporto tecnico, legale e finanziario al progetto. Questo ha permesso a Wikipedia di crescere in modo sostenibile e di mantenere la sua indipendenza editoriale \cite{reagle2010good}.
+
+\paragraph*{}
+Nel 2004, fu introdotto il sistema di categorie, che ha migliorato notevolmente l'organizzazione e la navigazione delle voci su Wikipedia. Questo sistema permette di raggruppare le voci in base a temi comuni, facilitando la ricerca delle informazioni e la scoperta di contenuti correlati \cite{jemielniak2014wikipedia}.
+
+\paragraph*{}
+Un'altra importante milestone fu l'introduzione del VisualEditor nel 2013. Questo strumento ha rivoluzionato il modo in cui gli utenti possono modificare le voci, offrendo un'interfaccia WYSIWYG (What You See Is What You Get) che semplifica l'editing anche per coloro che non hanno familiarità con il markup wiki \cite{history_of_wikis}. Il VisualEditor ha reso la modifica delle pagine più accessibile, incoraggiando una partecipazione più ampia.
+
+\paragraph*{}
+Nel corso degli anni, Wikipedia ha implementato vari strumenti di controllo della qualità e meccanismi di revisione. Tra questi, il sistema di "flagged revisions", introdotto nel 2008, che permette a determinati utenti di revisionare e approvare modifiche prima che queste diventino visibili al pubblico. Questo ha contribuito a migliorare la qualità e l'affidabilità delle informazioni presenti su Wikipedia \cite{denning2005wikipedia}.
+
+\paragraph*{}
+Un'importante evoluzione nella gestione dei contenuti è stata l'integrazione con Wikidata nel 2012. Wikidata è un database collaborativo che fornisce dati strutturati per supportare Wikipedia e altri progetti della Wikimedia Foundation. Questa integrazione ha permesso di migliorare la coerenza e l'aggiornamento delle informazioni tra le varie versioni linguistiche di Wikipedia \cite{history_of_wikis}.
+
+\paragraph*{}
+Wikipedia ha anche affrontato sfide legali e di censura in diversi paesi. Ad esempio, nel 2010, Wikipedia fu temporaneamente bloccata in Cina a causa di contenuti considerati sensibili dal governo cinese. La comunità di Wikipedia e la Wikimedia Foundation hanno lavorato costantemente per affrontare queste sfide, cercando di garantire l'accesso libero all'informazione per tutti \cite{jemielniak2014wikipedia}.
+
+\paragraph*{}
+Nel 2021, Wikipedia ha celebrato il suo 20º anniversario, un traguardo significativo che ha evidenziato il suo ruolo cruciale nella diffusione della conoscenza libera. Con milioni di voci in centinaia di lingue, Wikipedia continua a crescere e a evolversi, mantenendo il suo impegno verso la neutralità, la verificabilità e il contenuto libero \cite{reagle2010good}.
+
+\section{Impatto sulla Divulgazione Scientifica e Culturale}
+
+\subsection{Wikipedia come risorsa educativa}
+
+\paragraph*{}
+Wikipedia è ampiamente riconosciuta come una risorsa educativa preziosa, utilizzata da studenti, insegnanti e ricercatori di tutto il mondo. La sua accessibilità gratuita e la vastità delle informazioni disponibili la rendono uno strumento ideale per l'apprendimento autodiretto e la ricerca preliminare \cite{reagle2010good}.
+
+\paragraph*{}
+Gli studenti utilizzano frequentemente Wikipedia come punto di partenza per le loro ricerche. Le voci di Wikipedia forniscono panoramiche generali sugli argomenti, complete di riferimenti a fonti esterne che possono essere consultate per un approfondimento ulteriore. Questa caratteristica aiuta gli studenti a comprendere rapidamente i concetti di base e a identificare le risorse accademiche rilevanti \cite{denning2005wikipedia}.
+
+\paragraph*{}
+Gli insegnanti trovano in Wikipedia uno strumento utile per integrare le loro lezioni. Possono utilizzare le voci di Wikipedia per assegnare letture agli studenti, sviluppare materiali didattici e stimolare discussioni in classe. Inoltre, Wikipedia offre una piattaforma per progetti educativi in cui gli studenti possono contribuire alla creazione e alla modifica delle voci, sviluppando così competenze di ricerca, scrittura e pensiero critico \cite{jemielniak2014wikipedia}.
+
+\paragraph*{}
+Uno degli aspetti più significativi di Wikipedia come risorsa educativa è la sua capacità di promuovere l'alfabetizzazione digitale. Utilizzando Wikipedia, gli studenti imparano a valutare criticamente le informazioni, a distinguere tra fonti affidabili e non affidabili e a comprendere l'importanza della citazione delle fonti. Queste competenze sono essenziali in un'epoca in cui l'accesso alle informazioni è vasto e spesso caotico \cite{lih2009wikipedia}.
+
+\paragraph*{}
+Wikipedia è anche uno strumento potente per la promozione dell'apprendimento continuo. Gli utenti di tutte le età possono utilizzare l'enciclopedia per esplorare nuovi interessi, approfondire conoscenze esistenti e rimanere aggiornati su una vasta gamma di argomenti. La natura collaborativa di Wikipedia permette agli utenti di condividere il loro sapere e di apprendere dagli altri, creando una comunità globale di apprendimento \cite{history_of_wikis}.
+
+\paragraph*{}
+Le collaborazioni tra Wikipedia e istituzioni educative hanno portato a numerosi progetti di successo. Ad esempio, il programma Wikipedia Education Program coinvolge studenti e docenti in tutto il mondo, incoraggiandoli a contribuire a Wikipedia come parte del loro percorso accademico. Questi progetti non solo arricchiscono il contenuto di Wikipedia, ma forniscono anche agli studenti un'esperienza pratica nella ricerca e nella scrittura accademica \cite{jemielniak2014wikipedia}.
+
+\paragraph*{}
+Nonostante le sue numerose qualità, Wikipedia affronta anche critiche come risorsa educativa. Alcuni educatori esprimono preoccupazioni riguardo alla qualità e all'affidabilità delle informazioni presenti su Wikipedia. Tuttavia, la comunità di Wikipedia e la Wikimedia Foundation lavorano costantemente per migliorare la qualità delle voci attraverso politiche di revisione, l'uso di fonti affidabili e l'integrazione di strumenti automatizzati per il controllo delle modifiche \cite{denning2005wikipedia}.
+
+In conclusione, Wikipedia rappresenta una risorsa educativa versatile e potente, capace di supportare l'apprendimento in molti modi. La sua accessibilità, la vastità dei contenuti e la capacità di promuovere l'alfabetizzazione digitale la rendono uno strumento indispensabile nell'educazione moderna.
+
+\subsection{La qualità e l'affidabilità delle informazioni}
+
+\paragraph*{}
+La qualità e l'affidabilità delle informazioni su Wikipedia sono temi di fondamentale importanza, sia per la comunità degli utenti che per i lettori. Essendo un'enciclopedia aperta e collaborativa, Wikipedia deve affrontare la sfida di mantenere standard elevati di accuratezza e affidabilità nonostante la possibilità di modifiche da parte di chiunque \cite{reagle2010good}.
+
+\paragraph*{}
+Un elemento chiave per garantire la qualità delle informazioni è il principio di verificabilità. Ogni informazione presente su Wikipedia deve essere supportata da fonti affidabili che possono essere controllate dai lettori. Questo principio richiede che gli editori citino fonti autorevoli, come libri accademici, articoli scientifici e pubblicazioni giornalistiche, per garantire che i contenuti siano basati su prove concrete e verificabili \cite{denning2005wikipedia}.
+
+\paragraph*{}
+Wikipedia adotta una politica di neutralità, il che significa che le voci devono essere scritte in modo imparziale, presentando i fatti senza pregiudizi. Questo è essenziale per mantenere la credibilità dell'enciclopedia e per garantire che le informazioni fornite siano equilibrate e rappresentative dei diversi punti di vista su un argomento \cite{reagle2010good}.
+
+\paragraph*{}
+Un altro strumento fondamentale per mantenere la qualità delle informazioni è il sistema di controllo delle modifiche. Ogni modifica apportata a una voce viene registrata e può essere esaminata dagli altri utenti. Questo sistema di revisione continua permette di individuare e correggere rapidamente eventuali errori o vandalismi. Le pagine di discussione associate a ciascuna voce consentono inoltre agli utenti di confrontarsi e collaborare per migliorare i contenuti \cite{jemielniak2014wikipedia}.
+
+\paragraph*{}
+Wikipedia utilizza anche bot, ovvero programmi automatizzati, per eseguire compiti ripetitivi come il controllo dei link interrotti, la rimozione di spam e l'aggiornamento delle informazioni. Questi bot contribuiscono a mantenere l'enciclopedia in ordine e a garantire che le informazioni siano sempre aggiornate e accurate \cite{history_of_wikis}.
+
+\paragraph*{}
+Le politiche editoriali di Wikipedia richiedono che le voci siano scritte in un linguaggio chiaro e comprensibile, evitando l'uso di linguaggio tecnico non necessario. Questo aiuta a rendere le informazioni accessibili a un pubblico ampio e diversificato, migliorando la comprensione e l'usabilità delle voci \cite{reagle2010good}.
+
+\paragraph*{}
+Nonostante queste misure, Wikipedia affronta critiche riguardo alla qualità e all'affidabilità delle informazioni. Alcuni studiosi e professionisti esprimono preoccupazioni sul fatto che l'apertura della piattaforma possa portare a errori e informazioni fuorvianti. Tuttavia, studi comparativi hanno dimostrato che, in molti casi, la qualità delle informazioni su Wikipedia è paragonabile a quella delle enciclopedie tradizionali, come l'Enciclopedia Britannica \cite{denning2005wikipedia}.
+
+\paragraph*{}
+Per affrontare queste critiche, la comunità di Wikipedia continua a sviluppare e migliorare le politiche di revisione e controllo della qualità. Questo include l'implementazione di strumenti avanzati per l'analisi delle modifiche, la formazione di gruppi di lavoro specializzati e la collaborazione con esperti in vari campi del sapere. Questi sforzi collettivi aiutano a mantenere Wikipedia come una risorsa affidabile e rispettabile per milioni di utenti in tutto il mondo \cite{jemielniak2014wikipedia}.
+
+\subsection{Contributi alla scienza e alla conoscenza pubblica}
+
+\paragraph*{}
+Wikipedia ha avuto un impatto significativo sulla scienza e sulla conoscenza pubblica, fungendo da ponte tra il pubblico generale e la comunità scientifica. Essendo una delle risorse online più consultate al mondo, Wikipedia rende le informazioni scientifiche accessibili a milioni di persone, promuovendo una maggiore comprensione di argomenti complessi \cite{reagle2010good}.
+
+\paragraph*{}
+Uno dei principali contributi di Wikipedia è la democratizzazione dell'accesso alla conoscenza. Prima dell'avvento di Wikipedia, l'accesso a informazioni di qualità era spesso limitato a coloro che potevano permettersi costose enciclopedie o iscrizioni a riviste accademiche. Wikipedia ha eliminato queste barriere, rendendo la conoscenza disponibile gratuitamente a chiunque abbia una connessione Internet \cite{lih2009wikipedia}.
+
+\paragraph*{}
+Wikipedia svolge un ruolo cruciale nella diffusione delle scoperte scientifiche. Gli articoli su Wikipedia vengono frequentemente aggiornati per riflettere le ultime ricerche e scoperte, rendendo possibile per il pubblico rimanere informato sugli sviluppi più recenti in vari campi della scienza. Questo è particolarmente evidente nelle voci riguardanti la medicina, la fisica, la biologia e le scienze ambientali \cite{jemielniak2014wikipedia}.
+
+\paragraph*{}
+La piattaforma è utilizzata anche come strumento educativo nelle università e nelle scuole. Molti docenti incoraggiano gli studenti a utilizzare Wikipedia come punto di partenza per le loro ricerche, grazie alla sua capacità di fornire panoramiche generali e riferimenti a fonti più dettagliate. Inoltre, diversi programmi educativi coinvolgono gli studenti nella creazione e nella modifica delle voci di Wikipedia, fornendo loro un'esperienza pratica nella ricerca e nella scrittura accademica \cite{denning2005wikipedia}.
+
+\paragraph*{}
+Un altro contributo significativo di Wikipedia è la promozione della scienza aperta. Wikipedia incoraggia la trasparenza e la condivisione delle informazioni, valori fondamentali della scienza aperta. Le politiche di Wikipedia richiedono che tutte le informazioni siano verificabili e supportate da fonti affidabili, promuovendo così l'integrità e la trasparenza delle conoscenze scientifiche \cite{history_of_wikis}.
+
+\paragraph*{}
+Wikipedia ha anche collaborato con numerose istituzioni scientifiche e accademiche per migliorare la qualità delle sue voci. Queste collaborazioni includono il Wikimedia Research Program, che coinvolge ricercatori nell'analisi e nel miglioramento dei contenuti di Wikipedia, e il progetto GLAM (Galleries, Libraries, Archives, and Museums), che promuove la collaborazione tra Wikipedia e istituzioni culturali per condividere la conoscenza e le risorse \cite{jemielniak2014wikipedia}.
+
+\paragraph*{}
+Nonostante i suoi contributi, Wikipedia affronta anche sfide significative. La qualità delle informazioni può variare e ci sono preoccupazioni riguardo alla rappresentazione equa delle diverse discipline scientifiche. Tuttavia, la comunità di Wikipedia lavora costantemente per migliorare la qualità e la copertura delle voci, attraverso revisioni continue e politiche di verifica rigorose \cite{denning2005wikipedia}.
+
+In conclusione, Wikipedia rappresenta una risorsa inestimabile per la scienza e la conoscenza pubblica. La sua capacità di rendere le informazioni scientifiche accessibili a un vasto pubblico, insieme al suo impegno per la qualità e la trasparenza, la rende uno strumento cruciale nel panorama della conoscenza globale.
+
+\subsection{Critiche e sfide affrontate da Wikipedia}
+
+\paragraph*{}
+Fin dalla sua fondazione, Wikipedia ha dovuto affrontare numerose critiche e sfide, legate principalmente alla qualità e all'affidabilità delle informazioni, alla governance della comunità e alla sostenibilità del modello aperto e collaborativo. Queste critiche provengono sia dall'interno della comunità accademica che dal pubblico generale \cite{reagle2010good}.
+
+\paragraph*{}
+Una delle critiche più comuni riguarda la qualità delle informazioni. Essendo Wikipedia un'enciclopedia aperta, chiunque può modificare le voci, il che può portare all'inserimento di errori, informazioni fuorvianti o vandalismi. Sebbene esistano meccanismi di controllo e revisione, la natura aperta della piattaforma rende difficile garantire che tutte le informazioni siano accurate e aggiornate \cite{denning2005wikipedia}. Studi comparativi hanno mostrato che, nonostante questi problemi, la qualità delle informazioni su Wikipedia è spesso paragonabile a quella di altre enciclopedie tradizionali, come l'Enciclopedia Britannica, ma le preoccupazioni persistono \cite{giles2005nature}.
+
+\paragraph*{}
+Un'altra sfida significativa è rappresentata dai conflitti editoriali. La comunità di Wikipedia è composta da una vasta gamma di utenti con opinioni diverse, il che può portare a scontri su come presentare determinati argomenti. Questi conflitti possono rallentare il processo di modifica e talvolta portare a guerre di modifica, dove gli utenti annullano ripetutamente le modifiche degli altri. Per mitigare questi problemi, Wikipedia ha sviluppato linee guida e politiche per la risoluzione delle dispute e ha istituito il ruolo degli amministratori per facilitare la mediazione \cite{reagle2010good}.
+
+\paragraph*{}
+La rappresentazione e il bias sono altre aree di critica. Alcuni studiosi e attivisti hanno evidenziato che Wikipedia può riflettere pregiudizi culturali, di genere e geografici, a causa della predominanza di contributori provenienti da determinate regioni e background. Questo può portare a una copertura squilibrata di argomenti e a una mancanza di rappresentazione di voci minoritarie. La Wikimedia Foundation e la comunità di Wikipedia stanno lavorando per affrontare questi problemi attraverso iniziative volte a diversificare la base dei contributori e a migliorare la rappresentazione dei contenuti \cite{jemielniak2014wikipedia}.
+
+\paragraph*{}
+La sostenibilità finanziaria è un'altra sfida cruciale per Wikipedia. La piattaforma è gestita dalla Wikimedia Foundation, che si basa principalmente su donazioni per finanziare le operazioni. Sebbene Wikipedia riceva donazioni significative da tutto il mondo, la dipendenza dalle donazioni rende la sostenibilità a lungo termine una questione aperta. La Wikimedia Foundation ha esplorato diverse strategie per diversificare le fonti di finanziamento, mantenendo al contempo l'accesso gratuito e libero alla piattaforma \cite{history_of_wikis}.
+
+\paragraph*{}
+La protezione della privacy e la sicurezza degli utenti sono anche temi rilevanti. Wikipedia permette modifiche anonime, ma ciò ha sollevato preoccupazioni riguardo alla responsabilità e alla tracciabilità delle modifiche. Inoltre, i contributori possono essere esposti a rischi di privacy, specialmente in contesti politici sensibili. La Wikimedia Foundation ha implementato politiche di privacy e strumenti per proteggere gli utenti, ma queste misure devono essere continuamente aggiornate per affrontare nuove minacce \cite{denning2005wikipedia}.
+
+\paragraph*{}
+Nonostante queste sfide, Wikipedia continua a essere una risorsa fondamentale per milioni di persone in tutto il mondo. La comunità di Wikipedia è resiliente e continua a lavorare per migliorare la piattaforma, affrontando le critiche e le sfide attraverso l'innovazione e la collaborazione. Le iniziative per migliorare la qualità, diversificare la comunità dei contributori e garantire la sostenibilità finanziaria sono in corso e rappresentano passi cruciali per il futuro di Wikipedia \cite{reagle2010good}.
+
+\chapter{Spettroscopia}
+\section{Rifrazione}
+\section{Interferenza}
+\section{Emissoine ed Assorbimento}
+\chapter{Il mio lavoro}
+\section{Modalità di Redazione e Gestione dei Contenuti}
+\subsection{Il processo di creazione e modifica delle voci}
+\subsection{Regole e linee guida per i contributori}
+\subsection{Il ruolo dei revisori e degli amministratori}
+\subsection{Strumenti e tecnologie utilizzati}
+
+\newpage
+
+\printbibliography
+
+
+\end{document}
+
