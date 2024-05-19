@@ -45,102 +45,30 @@
       \field{title}{The Wikipedia Revolution: How a Bunch of Nobodies Created the World's Greatest Encyclopedia}
       \field{year}{2009}
     \endentry
-    \entry{history_of_wikis}{misc}{}{}
+    \entry{cunningham2001wiki}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
-           family={contributors},
-           familyi={c\bibinitperiod},
-           given={Wikipedia},
+        {{hash=dc98036d5d01f88b9fdd0b5ff2bc8a2d}{%
+           family={Cunningham},
+           familyi={C\bibinitperiod},
+           given={Ward},
            giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{fullhashraw}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authorfullhashraw}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{namehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{fullhash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{fullhashraw}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{bibnamehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{authorbibnamehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{authornamehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{authorfullhash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
+      \strng{authorfullhashraw}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://c2.com/doc/wikisym/WikiSym2006/cunningham.html}}
       \field{note}{Accessed: 2024-05-13}
-      \field{title}{History of wikis}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/History_of_wikis
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/History_of_wikis
-      \endverb
-    \endentry
-    \entry{ebersbach2008wiki}{book}{}{}
-      \name{author}{4}{}{%
-        {{hash=84e7a494e3f9788623c071f428b90d0e}{%
-           family={Ebersbach},
-           familyi={E\bibinitperiod},
-           given={Anja},
-           giveni={A\bibinitperiod}}}%
-        {{hash=bfae5c5adcda9a8e8fb675eb076ba93c}{%
-           family={Glaser},
-           familyi={G\bibinitperiod},
-           given={Markus},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d31d2e9226766c07c0c7df657004ed97}{%
-           family={Heigl},
-           familyi={H\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-        {{hash=03f1bb749249efac5650b2e64dc02efa}{%
-           family={Warta},
-           familyi={W\bibinitperiod},
-           given={Alexander},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer Science \& Business Media}%
-      }
-      \strng{namehash}{1263d6345159df9d9e4c89ecdac312bd}
-      \strng{fullhash}{d43cf9e803c757a98eedbab1264d71dd}
-      \strng{fullhashraw}{d43cf9e803c757a98eedbab1264d71dd}
-      \strng{bibnamehash}{1263d6345159df9d9e4c89ecdac312bd}
-      \strng{authorbibnamehash}{1263d6345159df9d9e4c89ecdac312bd}
-      \strng{authornamehash}{1263d6345159df9d9e4c89ecdac312bd}
-      \strng{authorfullhash}{d43cf9e803c757a98eedbab1264d71dd}
-      \strng{authorfullhashraw}{d43cf9e803c757a98eedbab1264d71dd}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Wiki: Web Collaboration}
-      \field{year}{2008}
-    \endentry
-    \entry{reagle2010good}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=b8872f92cc87e35dee78c915037eddd8}{%
-           family={Reagle},
-           familyi={R\bibinitperiod},
-           given={Joseph\bibnamedelima Michael},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {MIT Press}%
-      }
-      \strng{namehash}{b8872f92cc87e35dee78c915037eddd8}
-      \strng{fullhash}{b8872f92cc87e35dee78c915037eddd8}
-      \strng{fullhashraw}{b8872f92cc87e35dee78c915037eddd8}
-      \strng{bibnamehash}{b8872f92cc87e35dee78c915037eddd8}
-      \strng{authorbibnamehash}{b8872f92cc87e35dee78c915037eddd8}
-      \strng{authornamehash}{b8872f92cc87e35dee78c915037eddd8}
-      \strng{authorfullhash}{b8872f92cc87e35dee78c915037eddd8}
-      \strng{authorfullhashraw}{b8872f92cc87e35dee78c915037eddd8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Good Faith Collaboration: The Culture of Wikipedia}
-      \field{year}{2010}
+      \field{title}{Wiki History}
+      \field{year}{2001}
     \endentry
     \entry{denning2005wikipedia}{article}{}{}
       \name{author}{4}{}{%
@@ -176,8 +104,8 @@
       \strng{authornamehash}{0511f0f4e72a1daa421f388ccb90acec}
       \strng{authorfullhash}{8c16005b782f59ea553bdb53df1bac42}
       \strng{authorfullhashraw}{8c16005b782f59ea553bdb53df1bac42}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Communications of the ACM}
@@ -187,6 +115,32 @@
       \field{year}{2005}
       \field{pages}{152\bibrangedash 159}
       \range{pages}{8}
+    \endentry
+    \entry{reagle2010good}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b8872f92cc87e35dee78c915037eddd8}{%
+           family={Reagle},
+           familyi={R\bibinitperiod},
+           given={Joseph\bibnamedelima Michael},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{fullhash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{fullhashraw}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{bibnamehash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{authorbibnamehash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{authornamehash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{authorfullhash}{b8872f92cc87e35dee78c915037eddd8}
+      \strng{authorfullhashraw}{b8872f92cc87e35dee78c915037eddd8}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Good Faith Collaboration: The Culture of Wikipedia}
+      \field{year}{2010}
     \endentry
     \entry{jemielniak2014wikipedia}{article}{}{}
       \name{author}{1}{}{%
@@ -207,8 +161,8 @@
       \strng{authornamehash}{941d2c45e987896039a4667e906e6529}
       \strng{authorfullhash}{941d2c45e987896039a4667e906e6529}
       \strng{authorfullhashraw}{941d2c45e987896039a4667e906e6529}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{First Monday}
@@ -217,30 +171,97 @@
       \field{volume}{19}
       \field{year}{2014}
     \endentry
-    \entry{cunningham2001wiki}{misc}{}{}
+    \entry{history_of_wikis}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=dc98036d5d01f88b9fdd0b5ff2bc8a2d}{%
-           family={Cunningham},
-           familyi={C\bibinitperiod},
-           given={Ward},
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
            giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
-      \strng{fullhash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
-      \strng{fullhashraw}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
-      \strng{bibnamehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
-      \strng{authorbibnamehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
-      \strng{authornamehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
-      \strng{authorfullhash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
-      \strng{authorfullhashraw}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhashraw}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhashraw}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{http://c2.com/doc/wikisym/WikiSym2006/cunningham.html}}
       \field{note}{Accessed: 2024-05-13}
-      \field{title}{Wiki History}
-      \field{year}{2001}
+      \field{title}{History of wikis}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/History_of_wikis
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/History_of_wikis
+      \endverb
+    \endentry
+    \entry{wikiwikiweb}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhashraw}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhashraw}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-05-13}
+      \field{title}{WikiWikiWeb}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/WikiWikiWeb
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/WikiWikiWeb
+      \endverb
+    \endentry
+    \entry{wikimedia_stats}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1a6d9e389cc0a231ece07dff3dbfec11}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Wikimedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a6d9e389cc0a231ece07dff3dbfec11}
+      \strng{fullhash}{1a6d9e389cc0a231ece07dff3dbfec11}
+      \strng{fullhashraw}{1a6d9e389cc0a231ece07dff3dbfec11}
+      \strng{bibnamehash}{1a6d9e389cc0a231ece07dff3dbfec11}
+      \strng{authorbibnamehash}{1a6d9e389cc0a231ece07dff3dbfec11}
+      \strng{authornamehash}{1a6d9e389cc0a231ece07dff3dbfec11}
+      \strng{authorfullhash}{1a6d9e389cc0a231ece07dff3dbfec11}
+      \strng{authorfullhashraw}{1a6d9e389cc0a231ece07dff3dbfec11}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-05-16}
+      \field{title}{Wikimedia Statistics - Italian Wikipedia}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://stats.wikimedia.org/#/it.wikipedia.org
+      \endverb
+      \verb{url}
+      \verb https://stats.wikimedia.org/#/it.wikipedia.org
+      \endverb
     \endentry
     \entry{giles2005nature}{article}{}{}
       \name{author}{1}{}{%
@@ -261,8 +282,8 @@
       \strng{authornamehash}{7c13311c4e39ffe96de7981cea791ced}
       \strng{authorfullhash}{7c13311c4e39ffe96de7981cea791ced}
       \strng{authorfullhashraw}{7c13311c4e39ffe96de7981cea791ced}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
@@ -272,6 +293,359 @@
       \field{year}{2005}
       \field{pages}{900\bibrangedash 901}
       \range{pages}{2}
+    \endentry
+    \entry{fecher2014open}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3e523e34aa6f6cea8b9924c9ade279c6}{%
+           family={Fecher},
+           familyi={F\bibinitperiod},
+           given={Benedikt},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ffabfc6103a0452d348f6b823af58aaa}{%
+           family={Friesike},
+           familyi={F\bibinitperiod},
+           given={Sascha},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{35a626ffd6ad1c507cc3a856b6b16d98}
+      \strng{fullhash}{35a626ffd6ad1c507cc3a856b6b16d98}
+      \strng{fullhashraw}{35a626ffd6ad1c507cc3a856b6b16d98}
+      \strng{bibnamehash}{35a626ffd6ad1c507cc3a856b6b16d98}
+      \strng{authorbibnamehash}{35a626ffd6ad1c507cc3a856b6b16d98}
+      \strng{authornamehash}{35a626ffd6ad1c507cc3a856b6b16d98}
+      \strng{authorfullhash}{35a626ffd6ad1c507cc3a856b6b16d98}
+      \strng{authorfullhashraw}{35a626ffd6ad1c507cc3a856b6b16d98}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Springer}
+      \field{title}{Open Science: One Term, Five Schools of Thought}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://link.springer.com/chapter/10.1007/978-3-319-00026-8_2
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/chapter/10.1007/978-3-319-00026-8_2
+      \endverb
+    \endentry
+    \entry{nielsen2012reinventing}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=3b32fb3a134f406f7b5107358d27befe}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{fullhash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{fullhashraw}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{bibnamehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authorbibnamehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authornamehash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authorfullhash}{3b32fb3a134f406f7b5107358d27befe}
+      \strng{authorfullhashraw}{3b32fb3a134f406f7b5107358d27befe}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reinventing Discovery: The New Era of Networked Science}
+      \field{year}{2012}
+    \endentry
+    \entry{lam2011wp}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=f99f6a5df31908061e68b0db77705015}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Shyong\bibnamedelima K.},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=d42b39bd720abe0a9b1d504c6a344a03}{%
+           family={Uduwage},
+           familyi={U\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3358bb8d2183bc2d9cc5c5547517238b}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=01ca9ed64acba2ebabe961e44fe8305b}{%
+           family={Sen},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=db9ebeefd1dcc686aa951a03a8d83882}{%
+           family={Musicant},
+           familyi={M\bibinitperiod},
+           given={D.R.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c0ffe7ef4911324e80f65503777a8527}{%
+           family={Terveen},
+           familyi={T\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=75e39f43b15456d447927a9781b6c37d}{%
+           family={Riedl},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{a37b1ff74a3f7551be61bbcedc0bc2a9}
+      \strng{fullhash}{367cdb9d8046c404e4d270de828d1049}
+      \strng{fullhashraw}{367cdb9d8046c404e4d270de828d1049}
+      \strng{bibnamehash}{a37b1ff74a3f7551be61bbcedc0bc2a9}
+      \strng{authorbibnamehash}{a37b1ff74a3f7551be61bbcedc0bc2a9}
+      \strng{authornamehash}{a37b1ff74a3f7551be61bbcedc0bc2a9}
+      \strng{authorfullhash}{367cdb9d8046c404e4d270de828d1049}
+      \strng{authorfullhashraw}{367cdb9d8046c404e4d270de828d1049}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 7th International Symposium on Wikis and Open Collaboration}
+      \field{title}{WP: Clubhouse? An Exploration of Wikipedia’s Gender Imbalance}
+      \field{year}{2011}
+    \endentry
+    \entry{hollas2004modern}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=5b0518b39f721e1ac68057d429a233a0}{%
+           family={Hollas},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi Michael},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{5b0518b39f721e1ac68057d429a233a0}
+      \strng{fullhash}{5b0518b39f721e1ac68057d429a233a0}
+      \strng{fullhashraw}{5b0518b39f721e1ac68057d429a233a0}
+      \strng{bibnamehash}{5b0518b39f721e1ac68057d429a233a0}
+      \strng{authorbibnamehash}{5b0518b39f721e1ac68057d429a233a0}
+      \strng{authornamehash}{5b0518b39f721e1ac68057d429a233a0}
+      \strng{authorfullhash}{5b0518b39f721e1ac68057d429a233a0}
+      \strng{authorfullhashraw}{5b0518b39f721e1ac68057d429a233a0}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modern Spectroscopy}
+      \field{year}{2004}
+    \endentry
+    \entry{banwell2013fundamentals}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=04a1dc0f6aec09dbe23a53b67ce5bca0}{%
+           family={Banwell},
+           familyi={B\bibinitperiod},
+           given={Colin\bibnamedelima N},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=df2e1871efde9ef97500b835dd49b5b8}{%
+           family={McCash},
+           familyi={M\bibinitperiod},
+           given={Elaine\bibnamedelima M},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill Education}%
+      }
+      \strng{namehash}{b6d89866ed8aeae7d348c09f91ef573b}
+      \strng{fullhash}{b6d89866ed8aeae7d348c09f91ef573b}
+      \strng{fullhashraw}{b6d89866ed8aeae7d348c09f91ef573b}
+      \strng{bibnamehash}{b6d89866ed8aeae7d348c09f91ef573b}
+      \strng{authorbibnamehash}{b6d89866ed8aeae7d348c09f91ef573b}
+      \strng{authornamehash}{b6d89866ed8aeae7d348c09f91ef573b}
+      \strng{authorfullhash}{b6d89866ed8aeae7d348c09f91ef573b}
+      \strng{authorfullhashraw}{b6d89866ed8aeae7d348c09f91ef573b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamentals of Molecular Spectroscopy}
+      \field{year}{2013}
+    \endentry
+    \entry{hecht2002optics}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9a6efa2d012e3aaa08e4b6a8cf6a8b4c}{%
+           family={Hecht},
+           familyi={H\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{fullhash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{fullhashraw}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{bibnamehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{authorbibnamehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{authornamehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{authorfullhash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{authorfullhashraw}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Optics}
+      \field{year}{2002}
+    \endentry
+    \entry{born1999principles}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=f3c12b2ab192a232977c790c202ae18a}{%
+           family={Born},
+           familyi={B\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4f3da79454ab0edb86f37a6038d1998f}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{fullhash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{fullhashraw}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{bibnamehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{authorbibnamehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{authornamehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{authorfullhash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{authorfullhashraw}{b14dea9f75ec6824071689113c5b3d02}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Principles of Optics: Electromagnetic Theory of Propagation, Interference and Diffraction of Light}
+      \field{year}{1999}
+    \endentry
+    \entry{bohr1913constitution}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=09ca20fddac431fc5e6dae0595c682f8}{%
+           family={Bohr},
+           familyi={B\bibinitperiod},
+           given={Niels},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Philosophical Magazine Series 6, Volume 26}%
+      }
+      \strng{namehash}{09ca20fddac431fc5e6dae0595c682f8}
+      \strng{fullhash}{09ca20fddac431fc5e6dae0595c682f8}
+      \strng{fullhashraw}{09ca20fddac431fc5e6dae0595c682f8}
+      \strng{bibnamehash}{09ca20fddac431fc5e6dae0595c682f8}
+      \strng{authorbibnamehash}{09ca20fddac431fc5e6dae0595c682f8}
+      \strng{authornamehash}{09ca20fddac431fc5e6dae0595c682f8}
+      \strng{authorfullhash}{09ca20fddac431fc5e6dae0595c682f8}
+      \strng{authorfullhashraw}{09ca20fddac431fc5e6dae0595c682f8}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the Constitution of Atoms and Molecules}
+      \field{year}{1913}
+    \endentry
+    \entry{strasburger2014spectroscopy}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=d39a502c3813293d164ebb5ded97eac4}{%
+           family={Strasburger},
+           familyi={S\bibinitperiod},
+           given={Eduard},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d39a502c3813293d164ebb5ded97eac4}
+      \strng{fullhash}{d39a502c3813293d164ebb5ded97eac4}
+      \strng{fullhashraw}{d39a502c3813293d164ebb5ded97eac4}
+      \strng{bibnamehash}{d39a502c3813293d164ebb5ded97eac4}
+      \strng{authorbibnamehash}{d39a502c3813293d164ebb5ded97eac4}
+      \strng{authornamehash}{d39a502c3813293d164ebb5ded97eac4}
+      \strng{authorfullhash}{d39a502c3813293d164ebb5ded97eac4}
+      \strng{authorfullhashraw}{d39a502c3813293d164ebb5ded97eac4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Spectroscopy: Principles and Instrumentation}
+      \field{year}{2014}
+    \endentry
+    \entry{griffiths2007fourier}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=e81e2de872efe2ccdbf023a3ebbdfd90}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={Peter\bibnamedelima R},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=95f4060c81d2b2ea10f0b4ad4f915e22}{%
+           family={Haseth},
+           familyi={H\bibinitperiod},
+           given={James\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{62090538337b275dbf9cdfbbe55effa9}
+      \strng{fullhash}{62090538337b275dbf9cdfbbe55effa9}
+      \strng{fullhashraw}{62090538337b275dbf9cdfbbe55effa9}
+      \strng{bibnamehash}{62090538337b275dbf9cdfbbe55effa9}
+      \strng{authorbibnamehash}{62090538337b275dbf9cdfbbe55effa9}
+      \strng{authornamehash}{62090538337b275dbf9cdfbbe55effa9}
+      \strng{authorfullhash}{62090538337b275dbf9cdfbbe55effa9}
+      \strng{authorfullhashraw}{62090538337b275dbf9cdfbbe55effa9}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fourier Transform Infrared Spectrometry}
+      \field{year}{2007}
+    \endentry
+    \entry{johnson2020future}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8d257436a56087b94f791e540f8cb886}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Peter\bibnamedelima M},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=022efcea91d0a91e28b260b961fb8065}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5d0adebc3f608b7bcb7707a9a5633bdb}
+      \strng{fullhash}{5d0adebc3f608b7bcb7707a9a5633bdb}
+      \strng{fullhashraw}{5d0adebc3f608b7bcb7707a9a5633bdb}
+      \strng{bibnamehash}{5d0adebc3f608b7bcb7707a9a5633bdb}
+      \strng{authorbibnamehash}{5d0adebc3f608b7bcb7707a9a5633bdb}
+      \strng{authornamehash}{5d0adebc3f608b7bcb7707a9a5633bdb}
+      \strng{authorfullhash}{5d0adebc3f608b7bcb7707a9a5633bdb}
+      \strng{authorfullhashraw}{5d0adebc3f608b7bcb7707a9a5633bdb}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Spectroscopy}
+      \field{number}{3}
+      \field{title}{The future of spectroscopy: Emerging trends and applications}
+      \field{volume}{45}
+      \field{year}{2020}
+      \field{pages}{123\bibrangedash 135}
+      \range{pages}{13}
     \endentry
   \enddatalist
 \endrefsection
