@@ -412,62 +412,313 @@
       \field{title}{WP: Clubhouse? An Exploration of Wikipedia’s Gender Imbalance}
       \field{year}{2011}
     \endentry
-    \entry{hollas2004modern}{book}{}{}
+    \entry{Newton1671}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=5b0518b39f721e1ac68057d429a233a0}{%
-           family={Hollas},
-           familyi={H\bibinitperiod},
-           given={J.\bibnamedelimi Michael},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7a621e01239c1fe6557cf9c9d2f85bd3}{%
+           family={Newton},
+           familyi={N\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {John Wiley \& Sons}%
-      }
-      \strng{namehash}{5b0518b39f721e1ac68057d429a233a0}
-      \strng{fullhash}{5b0518b39f721e1ac68057d429a233a0}
-      \strng{fullhashraw}{5b0518b39f721e1ac68057d429a233a0}
-      \strng{bibnamehash}{5b0518b39f721e1ac68057d429a233a0}
-      \strng{authorbibnamehash}{5b0518b39f721e1ac68057d429a233a0}
-      \strng{authornamehash}{5b0518b39f721e1ac68057d429a233a0}
-      \strng{authorfullhash}{5b0518b39f721e1ac68057d429a233a0}
-      \strng{authorfullhashraw}{5b0518b39f721e1ac68057d429a233a0}
+      \strng{namehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{fullhash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{fullhashraw}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{bibnamehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authorbibnamehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authornamehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authorfullhash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authorfullhashraw}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Modern Spectroscopy}
-      \field{year}{2004}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society of London}
+      \field{note}{\url{https://royalsocietypublishing.org/doi/pdf/10.1098/rstl.1671.0072}}
+      \field{title}{A Letter of Mr. Isaac Newton, Professor of the Mathematicks in the University of Cambridge; Containing His New Theory about Light and Colors: Sent by the Author to the Publisher from Cambridge, Febr. 6. 1671/72; In Order to be Communicated to the R. Society}
+      \field{volume}{6}
+      \field{year}{1671}
+      \field{pages}{3075\bibrangedash 3087}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1098/rstl.1671.0072
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1098/rstl.1671.0072
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1098/rstl.1671.0072
+      \endverb
     \endentry
-    \entry{banwell2013fundamentals}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=04a1dc0f6aec09dbe23a53b67ce5bca0}{%
-           family={Banwell},
-           familyi={B\bibinitperiod},
-           given={Colin\bibnamedelima N},
-           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=df2e1871efde9ef97500b835dd49b5b8}{%
-           family={McCash},
-           familyi={M\bibinitperiod},
-           given={Elaine\bibnamedelima M},
-           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+    \entry{newton1704opticks}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=7a621e01239c1fe6557cf9c9d2f85bd3}{%
+           family={Newton},
+           familyi={N\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {McGraw-Hill Education}%
+        {Royal Society}%
       }
-      \strng{namehash}{b6d89866ed8aeae7d348c09f91ef573b}
-      \strng{fullhash}{b6d89866ed8aeae7d348c09f91ef573b}
-      \strng{fullhashraw}{b6d89866ed8aeae7d348c09f91ef573b}
-      \strng{bibnamehash}{b6d89866ed8aeae7d348c09f91ef573b}
-      \strng{authorbibnamehash}{b6d89866ed8aeae7d348c09f91ef573b}
-      \strng{authornamehash}{b6d89866ed8aeae7d348c09f91ef573b}
-      \strng{authorfullhash}{b6d89866ed8aeae7d348c09f91ef573b}
-      \strng{authorfullhashraw}{b6d89866ed8aeae7d348c09f91ef573b}
+      \strng{namehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{fullhash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{fullhashraw}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{bibnamehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authorbibnamehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authornamehash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authorfullhash}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \strng{authorfullhashraw}{7a621e01239c1fe6557cf9c9d2f85bd3}
+      \field{extraname}{2}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Fundamentals of Molecular Spectroscopy}
-      \field{year}{2013}
+      \field{title}{Opticks: or, A treatise of the reflexions, refractions, inflexions and colours of light}
+      \field{year}{1704}
+    \endentry
+    \entry{boscarol2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=f7c56bf9a2f08843ce00b1cea8edaf10}{%
+           family={Boscarol},
+           familyi={B\bibinitperiod},
+           given={Mauro},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7c56bf9a2f08843ce00b1cea8edaf10}
+      \strng{fullhash}{f7c56bf9a2f08843ce00b1cea8edaf10}
+      \strng{fullhashraw}{f7c56bf9a2f08843ce00b1cea8edaf10}
+      \strng{bibnamehash}{f7c56bf9a2f08843ce00b1cea8edaf10}
+      \strng{authorbibnamehash}{f7c56bf9a2f08843ce00b1cea8edaf10}
+      \strng{authornamehash}{f7c56bf9a2f08843ce00b1cea8edaf10}
+      \strng{authorfullhash}{f7c56bf9a2f08843ce00b1cea8edaf10}
+      \strng{authorfullhashraw}{f7c56bf9a2f08843ce00b1cea8edaf10}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-05-22}
+      \field{title}{La teoria dei colori di Aristotele}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb http://www.boscarol.com/blog/?p=14637#a35
+      \endverb
+      \verb{url}
+      \verb http://www.boscarol.com/blog/?p=14637#a35
+      \endverb
+    \endentry
+    \entry{Fraunhofer1817}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=223d625f654c9c768d0785a902f59f3d}{%
+           family={Fraunhofer},
+           familyi={F\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{223d625f654c9c768d0785a902f59f3d}
+      \strng{fullhash}{223d625f654c9c768d0785a902f59f3d}
+      \strng{fullhashraw}{223d625f654c9c768d0785a902f59f3d}
+      \strng{bibnamehash}{223d625f654c9c768d0785a902f59f3d}
+      \strng{authorbibnamehash}{223d625f654c9c768d0785a902f59f3d}
+      \strng{authornamehash}{223d625f654c9c768d0785a902f59f3d}
+      \strng{authorfullhash}{223d625f654c9c768d0785a902f59f3d}
+      \strng{authorfullhashraw}{223d625f654c9c768d0785a902f59f3d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen der Physik}
+      \field{title}{Bestimmung des Brechungs- und des Farbenzerstreuungs-Vermögens verschiedener Glasarten, in Bezug auf die Vervollkommnung achromatischer Fernröhre}
+      \field{volume}{56}
+      \field{year}{1817}
+      \field{pages}{264\bibrangedash 313}
+      \range{pages}{50}
+      \verb{doi}
+      \verb 10.1002/andp.18170560706
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/andp.18170560706
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/andp.18170560706
+      \endverb
+    \endentry
+    \entry{Huygens1690}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=08c1e21bc7163d4a61af78e727bc1cb0}{%
+           family={Huygens},
+           familyi={H\bibinitperiod},
+           given={Christiaan},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pierre van der Aa}%
+      }
+      \strng{namehash}{08c1e21bc7163d4a61af78e727bc1cb0}
+      \strng{fullhash}{08c1e21bc7163d4a61af78e727bc1cb0}
+      \strng{fullhashraw}{08c1e21bc7163d4a61af78e727bc1cb0}
+      \strng{bibnamehash}{08c1e21bc7163d4a61af78e727bc1cb0}
+      \strng{authorbibnamehash}{08c1e21bc7163d4a61af78e727bc1cb0}
+      \strng{authornamehash}{08c1e21bc7163d4a61af78e727bc1cb0}
+      \strng{authorfullhash}{08c1e21bc7163d4a61af78e727bc1cb0}
+      \strng{authorfullhashraw}{08c1e21bc7163d4a61af78e727bc1cb0}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Traité de la Lumière}
+      \field{year}{1690}
+      \verb{urlraw}
+      \verb https://www.britannica.com/science/Huygens-principle
+      \endverb
+      \verb{url}
+      \verb https://www.britannica.com/science/Huygens-principle
+      \endverb
+    \endentry
+    \entry{Young1804}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=303e5b1e86249ca165ef0f41a60f2671}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{fullhash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{fullhashraw}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{bibnamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorbibnamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authornamehash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorfullhash}{303e5b1e86249ca165ef0f41a60f2671}
+      \strng{authorfullhashraw}{303e5b1e86249ca165ef0f41a60f2671}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society of London}
+      \field{title}{The Bakerian Lecture: Experiments and Calculations Relative to Physical Optics}
+      \field{volume}{94}
+      \field{year}{1804}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1098/rstl.1804.0001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1098/rstl.1804.0001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1098/rstl.1804.0001
+      \endverb
+    \endentry
+    \entry{Kirchhoff1861}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=11d1101292d2c414be103ff433d0f03c}{%
+           family={Kirchhoff},
+           familyi={K\bibinitperiod},
+           given={Gustav},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Ferdinand Dümmler}%
+      }
+      \strng{namehash}{11d1101292d2c414be103ff433d0f03c}
+      \strng{fullhash}{11d1101292d2c414be103ff433d0f03c}
+      \strng{fullhashraw}{11d1101292d2c414be103ff433d0f03c}
+      \strng{bibnamehash}{11d1101292d2c414be103ff433d0f03c}
+      \strng{authorbibnamehash}{11d1101292d2c414be103ff433d0f03c}
+      \strng{authornamehash}{11d1101292d2c414be103ff433d0f03c}
+      \strng{authorfullhash}{11d1101292d2c414be103ff433d0f03c}
+      \strng{authorfullhashraw}{11d1101292d2c414be103ff433d0f03c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Untersuchungen über das Sonnenspektrum und die Spektren der chemischen Elemente}
+      \field{year}{1861}
+      \verb{urlraw}
+      \verb https://wellcomecollection.org/works/bk5pkdpj
+      \endverb
+      \verb{url}
+      \verb https://wellcomecollection.org/works/bk5pkdpj
+      \endverb
+    \endentry
+    \entry{Bohr1913}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a0bed8dbeec8d1cc48216777bb7dae35}{%
+           family={Bohr},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{a0bed8dbeec8d1cc48216777bb7dae35}
+      \strng{fullhash}{a0bed8dbeec8d1cc48216777bb7dae35}
+      \strng{fullhashraw}{a0bed8dbeec8d1cc48216777bb7dae35}
+      \strng{bibnamehash}{a0bed8dbeec8d1cc48216777bb7dae35}
+      \strng{authorbibnamehash}{a0bed8dbeec8d1cc48216777bb7dae35}
+      \strng{authornamehash}{a0bed8dbeec8d1cc48216777bb7dae35}
+      \strng{authorfullhash}{a0bed8dbeec8d1cc48216777bb7dae35}
+      \strng{authorfullhashraw}{a0bed8dbeec8d1cc48216777bb7dae35}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
+      \field{number}{153}
+      \field{title}{XXXVII. On the constitution of atoms and molecules}
+      \field{volume}{26}
+      \field{year}{1913}
+      \field{pages}{476\bibrangedash 502}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1080/14786441308634993
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/14786441308634993
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/14786441308634993
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/14786441308634993
+      \endverb
+    \endentry
+    \entry{Fermilab2019}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=da07760949eb9cf7af3231d1f20fb2dd}{%
+           family={Fermilab},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{fullhash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{fullhashraw}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{bibnamehash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{authorbibnamehash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{authornamehash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{authorfullhash}{da07760949eb9cf7af3231d1f20fb2dd}
+      \strng{authorfullhashraw}{da07760949eb9cf7af3231d1f20fb2dd}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-05-22}
+      \field{title}{Why does light slow down in water?}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=CUjt36SD3h8
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=CUjt36SD3h8
+      \endverb
     \endentry
     \entry{hecht2002optics}{book}{}{}
       \name{author}{1}{}{%
@@ -519,8 +770,8 @@
       \strng{authornamehash}{b14dea9f75ec6824071689113c5b3d02}
       \strng{authorfullhash}{b14dea9f75ec6824071689113c5b3d02}
       \strng{authorfullhashraw}{b14dea9f75ec6824071689113c5b3d02}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Principles of Optics: Electromagnetic Theory of Propagation, Interference and Diffraction of Light}
@@ -545,8 +796,9 @@
       \strng{authornamehash}{09ca20fddac431fc5e6dae0595c682f8}
       \strng{authorfullhash}{09ca20fddac431fc5e6dae0595c682f8}
       \strng{authorfullhashraw}{09ca20fddac431fc5e6dae0595c682f8}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{On the Constitution of Atoms and Molecules}
@@ -571,8 +823,8 @@
       \strng{authornamehash}{d39a502c3813293d164ebb5ded97eac4}
       \strng{authorfullhash}{d39a502c3813293d164ebb5ded97eac4}
       \strng{authorfullhashraw}{d39a502c3813293d164ebb5ded97eac4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Spectroscopy: Principles and Instrumentation}
@@ -604,8 +856,8 @@
       \strng{authornamehash}{62090538337b275dbf9cdfbbe55effa9}
       \strng{authorfullhash}{62090538337b275dbf9cdfbbe55effa9}
       \strng{authorfullhashraw}{62090538337b275dbf9cdfbbe55effa9}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Fourier Transform Infrared Spectrometry}
@@ -635,8 +887,8 @@
       \strng{authornamehash}{5d0adebc3f608b7bcb7707a9a5633bdb}
       \strng{authorfullhash}{5d0adebc3f608b7bcb7707a9a5633bdb}
       \strng{authorfullhashraw}{5d0adebc3f608b7bcb7707a9a5633bdb}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Spectroscopy}

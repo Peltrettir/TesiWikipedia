@@ -4,7 +4,7 @@
 \usepackage{ragged2e}
 \usepackage{csquotes}
 \usepackage{hyperref}
-\usepackage{graphicx}
+\usepackage{graphicx, caption}
 
 %Bibliografia
 \usepackage[style=numeric,sorting=none]{biblatex}
@@ -247,60 +247,72 @@ In conclusione, Wikipedia continua a essere una risorsa fondamentale per milioni
 
 \chapter{Introduzione alla Spettroscopia}
 
-La spettroscopia è una tecnica scientifica fondamentale che si occupa dello studio dell'interazione tra la luce e la materia. Questo campo di ricerca permette di analizzare le proprietà fisiche e chimiche dei materiali attraverso la misurazione e l'interpretazione dei loro spettri. Gli spettri sono grafici che rappresentano l'intensità della luce emessa o assorbita da un campione in funzione della lunghezza d'onda o della frequenza.
+La spettroscopia come branca dell'ottica si fa storicamente iniziare nel XVII secolo con Isaac Newton, il primo ad utilizzare il termine "spettro" per descrivere la dispersione della luce bianca nei colori che la compongono per effetto di un prisma\cite{Newton1671}.
 
-La storia della spettroscopia risale al XVII secolo, quando Isaac Newton utilizzò un prisma per decomporre la luce solare nei suoi colori componenti, creando quello che oggi conosciamo come spettro visibile. Tuttavia, è solo nel XIX secolo che la spettroscopia inizia a svilupparsi come disciplina scientifica autonoma, grazie ai lavori pionieristici di scienziati come Joseph von Fraunhofer, che scoprì le linee scure (oggi note come linee di Fraunhofer) nello spettro solare, e Gustav Kirchhoff e Robert Bunsen, che svilupparono le basi della spettroscopia moderna analizzando gli spettri di emissione e assorbimento degli elementi chimici \cite{hollas2004modern}.
+Newton raccolse i sui esperimenti sul fenomento in un trattato di tre volumi, Opticks\cite{newton1704opticks}, che pose le basi per l'ottica moderna, confutando la teoria del colore di origine aristotelica che attribuiva i colori al grado di diafanità della luce\cite{boscarol2024}, e proponendo il modello corpuscolare della luce.
 
-La spettroscopia ha trovato applicazioni in vari campi della scienza e della tecnologia, dalla chimica all'astronomia, dalla fisica alla biologia. Grazie a questa tecnica, è possibile identificare gli elementi chimici presenti nelle stelle lontane, analizzare la composizione di materiali sconosciuti e studiare i processi molecolari fondamentali. La capacità della spettroscopia di fornire informazioni dettagliate e precise sulla struttura della materia la rende uno strumento indispensabile nella ricerca scientifica contemporanea.
+Nel XIX secolo, Joseph von Fraunhofer perfezionò diversi strumenti ottici, tra cui prismi e reticoli di diffrazione, e li utilizzò per osservare lo spettro solare e identificarne le linee scure, ora note come linee di Fraunhofer\cite{Fraunhofer1817}. A Fraunhofer si deve l'introduzione dell'analisi quantitativa alla spettroscopia, in quanto fu il primo in grado di misurare con precisione le lunghezze d'onda della luce.
 
-\section{Principi Fondamentali della Spettroscopia}
+Huygens propose che la luce si propagasse come un'onda e introdusse il principio che porta il suo nome\cite{Huygens1690}. Secondo il principio di Huygens, ogni punto di un fronte d'onda può essere considerato come una sorgente di onde secondarie sferiche, che si propagano in tutte le direzioni; la somma di queste onde secondarie determina la posizione del fronte d'onda successivo. Questo principio poteva spiegare fenomeni come la rifrazione e la diffrazione della luce.
 
-La spettroscopia si basa sull'interazione della luce con la materia. Quando la luce, intesa come una forma di radiazione elettromagnetica, incide su un campione, può essere assorbita, riflessa, rifratta o emessa. Queste interazioni dipendono dalle proprietà fisiche e chimiche del campione e dalla lunghezza d'onda della luce.
+Successivamente, Thomas Young verificò la natura ondulatoria della luce per mezzo del suo famoso esperimento di interferenza\cite{Young1804}.
 
-\subsection{Interazione della luce con la materia}
+La spettroscopia si sviluppò ulteriormente con Gustav Kirchhoff e Robert Bunsen, che collegarono univocamente le linee di emissione e assorbimento agli elementi chimici dai quali erano prodotte\cite{Kirchhoff1861}, stabilendo la base per l'analisi chimica mediante la spettroscopia. La spettroscopia divenne così uno strumento essenziale in chimica, fisica e astronomia, permettendo di identificare la composizione chimica delle stelle e di altri corpi celesti.
 
-L'interazione della luce con la materia può manifestarsi in diversi modi:
+Nel XX secolo, Niels Bohr propose un modello atomico quantizzato che poteva sipegare la regolarità delle linee spettrali degli atomi idrogenoidi\cite{Bohr1913}.
 
-\begin{itemize}
-\item \textbf{Assorbimento}: Quando un atomo o una molecola assorbe un fotone, l'energia del fotone viene trasferita all'atomo o alla molecola, portandoli in uno stato eccitato. Questo processo è alla base della spettroscopia di assorbimento.
-\item \textbf{Emissione}: Quando un atomo o una molecola eccitata ritorna a uno stato energetico inferiore, emette un fotone. Questo fenomeno è sfruttato nella spettroscopia di emissione.
-\item \textbf{Diffrazione e Interferenza}: La luce può diffrangersi passando attraverso una griglia o un piccolo foro, producendo pattern di interferenza che possono essere analizzati per ottenere informazioni sulle proprietà della luce e del campione.
-\item \textbf{Riflessione e Rifrazione}: Quando la luce incontra una superficie, può essere riflessa o rifratta. Questi fenomeni sono utilizzati in diverse tecniche spettroscopiche per analizzare le proprietà ottiche dei materiali.
-\end{itemize}
+Le tecniche spettroscopiche si sono evolute con l'introduzione della spettroscopia Raman e della spettroscopia infrarossa, che sfruttano la diffusione inelastica e le vibrazioni molecolari per analizzare la composizione chimica dei materiali. La spettroscopia laser, sviluppata negli anni '60, ha permesso misurazioni estremamente precise delle frequenze luminose, rivoluzionando l'analisi spettroscopica.
 
-\subsection{Tipi di spettroscopia (ottica, infrarossa, ultravioletta, ecc.)}
+\section{La Rifrazione e Legge di Snell}
 
-Esistono vari tipi di spettroscopia, ciascuno con specifiche applicazioni e vantaggi:
+La rifrazione è un fenomeno ottico che si verifica quando un'onda luminosa passa da un mezzo a un altro con una diversa densità ottica, o indice di rifrazione, provocando un cambiamento nella velocità dell'onda e, conseguentemente, nella direzione di propagazione dell'onda stessa. Quando un onda colpisce obliquamente un mezzo con indice di rifrazione diverso, ad esempio maggiore, subirà una variazione di velocità in maniera non uniforme, in quanto la prima parte dell'onda che entra in contatto con il nuovo mezzo verrà rallentata per prima. Questo causa una deformazione del fronte d'onda, e conseguentemente un cambio di direzione, come rappresentato in \ref{fig:wawefrontRefraction}.
 
-\begin{itemize}
-\item \textbf{Spettroscopia Ottica (UV-Vis)}: Utilizza luce ultravioletta e visibile per studiare le transizioni elettroniche negli atomi e nelle molecole. È ampiamente usata per l'analisi qualitativa e quantitativa di soluzioni chimiche.
-\item \textbf{Spettroscopia Infrarossa (IR)}: Impiega radiazione infrarossa per esaminare le vibrazioni molecolari. È particolarmente utile per identificare gruppi funzionali e strutture molecolari.
-\item \textbf{Spettroscopia di Risonanza Magnetica Nucleare (NMR)}: Utilizza campi magnetici per studiare le proprietà nucleari degli atomi. È una tecnica fondamentale in chimica organica e biochimica per determinare la struttura delle molecole.
-\item \textbf{Spettroscopia di Massa (MS)}: Misura il rapporto massa/carica degli ioni per determinare la massa molecolare e la struttura delle molecole. È cruciale per l'analisi qualitativa e quantitativa di composti chimici complessi \cite{banwell2013fundamentals}.
-\end{itemize}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=200px]{Immagini/Snells_law_wavefronts.png}
+    \captionsetup{width=.8\linewidth}
+    \caption[\textit{By Oleg Alexandrov}]{\textit{By Oleg Alexandrov\footnotemark} Rappresentazione della deformazione subita da un'onda sferica al passaggio da un mezzo a indice di rifrazione minore ad uno con indice di rifrazione maggiore. La linea rossa, normale al fronte d'onda, evidenzia la rifrazione}
+    \label{fig:wawefrontRefraction}
+\end{figure}
+\footnotetext{By Oleg Alexandrov, Public Domain, \href{https://commons.wikimedia.org/w/index.php?curid=3323373}{https://commons.wikimedia.org/w/index.php?curid=3323373}}
 
-Ogni tecnica spettroscopica fornisce una visione unica delle proprietà dei campioni studiati, contribuendo in modo complementare alla comprensione complessiva delle loro caratteristiche fisiche e chimiche.
+Il rallentamento della luce in in mezzo a maggiore densità non è dovuto a fenomeni di scattering o assorbimento, ma all'eccitazione degli elettroni del mezzo stesso che agiscono come un induttore. Questi infatti, stimolati dalla carica elettrica dei fotoni, iniziano a loro volta ad oscillare, producendo onde elettromagnetiche che fanno interferenza con l'onda di onde luminosa, producendo un'onda con frequenza minore\cite{Fermilab2019}.
 
-\section{Legge di Snell e la Rifrazione}
+\subsection{Derivazione della Legge di Snell dal Principio di Fermat}
 
-\subsection{Introduzione alla rifrazione}
+La legge di Snell può essere derivata utilizzando il principio di Fermat, che afferma che il percorso seguito dalla luce tra due punti è quello che richiede il tempo minimo.
 
-La rifrazione è il fenomeno fisico che si verifica quando un'onda luminosa passa da un mezzo a un altro con diversa densità ottica, causando un cambiamento nella velocità e, conseguentemente, nella direzione dell'onda stessa. Questo fenomeno è essenziale nella spettroscopia perché permette di manipolare e controllare i percorsi della luce attraverso vari materiali, facilitando l'analisi delle loro proprietà ottiche.
+Consideriamo un raggio di luce che passa da un mezzo con indice di rifrazione \( n_1 \) a un altro mezzo con indice di rifrazione \( n_2 \). Supponiamo che il raggio inizi nel punto \( A \) nel primo mezzo e termini nel punto \( B \) nel secondo mezzo. La superficie di separazione tra i due mezzi è piana e si trova lungo l'asse \( x \).
 
-\subsection{Enunciato della Legge di Snell}
+Il tempo impiegato dalla luce per percorrere il tratto \( A \to C \to B \), dove \( C \) è il punto di incidenza sulla superficie di separazione, è dato da:
 
-La Legge di Snell descrive quantitativamente come la luce viene rifratta quando attraversa la superficie di separazione tra due mezzi. La legge è espressa dalla formula:
+\[ t = \frac{AC}{v_1} + \frac{CB}{v_2} \]
+
+dove \( v_1 \) e \( v_2 \) sono le velocità della luce nei rispettivi mezzi. Poiché la velocità della luce in un mezzo è inversamente proporzionale all'indice di rifrazione (\( v = \frac{c}{n} \)), possiamo riscrivere il tempo totale come:
+
+\[ t = \frac{\sqrt{x^2 + y_1^2}}{v_1} + \frac{\sqrt{(d - x)^2 + y_2^2}}{v_2} \]
+\[ t = \frac{\sqrt{x^2 + y_1^2} \, n_1}{c} + \frac{\sqrt{(d - x)^2 + y_2^2} \, n_2}{c} \]
+
+Per trovare il minimo tempo, dobbiamo derivare questa espressione rispetto a \( x \) e porre la derivata uguale a zero:
+
+\[ \frac{d}{dx} \left( \frac{\sqrt{x^2 + y_1^2} \, n_1}{c} + \frac{\sqrt{(d - x)^2 + y_2^2} \, n_2}{c} \right) = 0 \]
+
+Semplificando e derivando, otteniamo:
+
+\[ \frac{n_1 x}{c \sqrt{x^2 + y_1^2}} - \frac{n_2 (d - x)}{c \sqrt{(d - x)^2 + y_2^2}} = 0 \]
+
+Moltiplicando entrambi i termini per \( c \) e semplificando, otteniamo:
+
+\[ \frac{n_1 x}{\sqrt{x^2 + y_1^2}} = \frac{n_2 (d - x)}{\sqrt{(d - x)^2 + y_2^2}} \]
+
+Riconoscendo gli angoli di incidenza (\( \theta_1 \)) e di rifrazione (\( \theta_2 \)) nelle rispettive espressioni:
+
+\[ \sin \theta_1 = \frac{x}{\sqrt{x^2 + y_1^2}} \]
+\[ \sin \theta_2 = \frac{d - x}{\sqrt{(d - x)^2 + y_2^2}} \]
+
+Possiamo scrivere:
 
 \[ n_1 \sin \theta_1 = n_2 \sin \theta_2 \]
-
-dove:
-\begin{itemize}
-\item \( n_1 \) e \( n_2 \) sono gli indici di rifrazione dei due mezzi,
-\item \( \theta_1 \) è l'angolo di incidenza rispetto alla normale alla superficie,
-\item \( \theta_2 \) è l'angolo di rifrazione rispetto alla normale alla superficie.
-\end{itemize}
-
-Questa legge permette di calcolare come la luce si piega quando entra in un mezzo con diverso indice di rifrazione. Gli indici di rifrazione sono specifici per ogni materiale e dipendono dalla lunghezza d'onda della luce, il che rende la rifrazione un importante strumento per la spettroscopia.
 
 \subsection{Applicazioni della rifrazione nella spettroscopia}
 
