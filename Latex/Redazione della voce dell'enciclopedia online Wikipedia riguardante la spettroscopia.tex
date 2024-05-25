@@ -3,8 +3,8 @@
 \usepackage{newlfont}
 \usepackage{ragged2e}
 \usepackage{csquotes}
-\usepackage{hyperref}
-\usepackage{graphicx, caption}
+\usepackage{hyperref, cleveref}
+\usepackage{graphicx, caption, subcaption}
 
 %Bibliografia
 \usepackage[style=numeric,sorting=none]{biblatex}
@@ -141,7 +141,7 @@ La nascita di Wikipedia rappresentò un momento cruciale nella storia della diff
 
 \subsection{Evoluzione e crescita nel tempo}
 
-Dalla sua fondazione nel 2001, Wikipedia ha conosciuto una crescita esponenziale, figura \ref{fig:wikiPagesYear}, diventando una delle principali fonti di informazione su Internet. Nei primi anni, il progetto attirò rapidamente l'attenzione di utenti di tutto il mondo, grazie alla sua natura aperta e collaborativa che permetteva a chiunque di contribuire al contenuto dell'enciclopedia \cite{lih2009wikipedia}.
+Dalla sua fondazione nel 2001, Wikipedia ha conosciuto una crescita esponenziale, figura \cref{fig:wikiPagesYear}, diventando una delle principali fonti di informazione su Internet. Nei primi anni, il progetto attirò rapidamente l'attenzione di utenti di tutto il mondo, grazie alla sua natura aperta e collaborativa che permetteva a chiunque di contribuire al contenuto dell'enciclopedia \cite{lih2009wikipedia}.
 
 Nel 2003, fu creata la Wikimedia Foundation, un'organizzazione senza scopo di lucro, per supportare Wikipedia e i suoi progetti correlati. La fondazione si occupa della raccolta di fondi, del supporto tecnico e della promozione della missione di Wikipedia di fornire contenuti liberi e accessibili a tutti \cite{reagle2010good}. La creazione della Wikimedia Foundation ha permesso a Wikipedia di ottenere maggiore stabilità e risorse per continuare a crescere.
 
@@ -152,6 +152,7 @@ La comunità di Wikipedia ha continuato a crescere, con un numero sempre maggior
 \begin{figure}
     \includegraphics[width=\linewidth]{Immagini/Grafico pagine wikipedia excel.png}
     \caption{Numero complessivo di pagine di Wikipedia in lingua inglese e italiana in riferimento all'anno, dal 2001 ad oggi.\cite{wikimedia_stats} }
+    \captionsetup{width=.8\linewidth}
     \label{fig:wikiPagesYear}
 \end{figure}
 
@@ -247,9 +248,9 @@ In conclusione, Wikipedia continua a essere una risorsa fondamentale per milioni
 
 \chapter{Introduzione alla Spettroscopia}
 
-La spettroscopia come branca dell'ottica si fa storicamente iniziare nel XVII secolo con Isaac Newton, il primo ad utilizzare il termine "spettro" per descrivere la dispersione della luce bianca nei colori che la compongono per effetto di un prisma\cite{Newton1671}.
+La spettroscopia come branca dell'ottica si fa storicamente iniziare nel XVII secolo con Isaac Newton, il primo ad utilizzare il termine "spettro", per descrivere la dispersione della luce bianca nei colori che la compongono per effetto di un prisma\cite{Newton1671}.
 
-Newton raccolse i sui esperimenti sul fenomento in un trattato di tre volumi, Opticks\cite{newton1704opticks}, che pose le basi per l'ottica moderna, confutando la teoria del colore di origine aristotelica che attribuiva i colori al grado di diafanità della luce\cite{boscarol2024}, e proponendo il modello corpuscolare della luce.
+Newton raccolse i sui esperimenti sul fenomento in un trattato di tre volumi, Opticks\cite{newton1704opticks}, che pose le basi per l'ottica moderna, confutando la teoria del colore allora accettata, di origine aristotelica, la quale attribuiva i colori al grado di diafanità della luce\cite{boscarol2024}, e proponendo il modello corpuscolare della luce.
 
 Nel XIX secolo, Joseph von Fraunhofer perfezionò diversi strumenti ottici, tra cui prismi e reticoli di diffrazione, e li utilizzò per osservare lo spettro solare e identificarne le linee scure, ora note come linee di Fraunhofer\cite{Fraunhofer1817}. A Fraunhofer si deve l'introduzione dell'analisi quantitativa alla spettroscopia, in quanto fu il primo in grado di misurare con precisione le lunghezze d'onda della luce.
 
@@ -263,13 +264,13 @@ Nel XX secolo, Niels Bohr propose un modello atomico quantizzato che poteva sipe
 
 Le tecniche spettroscopiche si sono evolute con l'introduzione della spettroscopia Raman e della spettroscopia infrarossa, che sfruttano la diffusione inelastica e le vibrazioni molecolari per analizzare la composizione chimica dei materiali. La spettroscopia laser, sviluppata negli anni '60, ha permesso misurazioni estremamente precise delle frequenze luminose, rivoluzionando l'analisi spettroscopica.
 
-\section{La Rifrazione e Legge di Snell}
+\section{Rifrazione e Legge di Snell}
 
-La rifrazione è un fenomeno ottico che si verifica quando un'onda luminosa passa da un mezzo a un altro con una diversa densità ottica, o indice di rifrazione, provocando un cambiamento nella velocità dell'onda e, conseguentemente, nella direzione di propagazione dell'onda stessa. Quando un onda colpisce obliquamente un mezzo con indice di rifrazione diverso, ad esempio maggiore, subirà una variazione di velocità in maniera non uniforme, in quanto la prima parte dell'onda che entra in contatto con il nuovo mezzo verrà rallentata per prima. Questo causa una deformazione del fronte d'onda, e conseguentemente un cambio di direzione, come rappresentato in \ref{fig:wawefrontRefraction}.
+La rifrazione è un fenomeno ottico che si verifica quando un'onda luminosa passa da un mezzo a un altro con una diversa densità ottica, o indice di rifrazione, provocando un cambiamento nella velocità dell'onda e, conseguentemente, nella direzione di propagazione dell'onda stessa. Quando un onda colpisce obliquamente un mezzo con indice di rifrazione diverso, ad esempio maggiore, subirà una variazione di velocità in maniera non uniforme, in quanto la prima parte dell'onda che entra in contatto con il nuovo mezzo verrà rallentata per prima. Questo causa una deformazione del fronte d'onda, e conseguentemente un cambio di direzione, come rappresentato in \cref{fig:wawefrontRefraction}.
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
     \centering
-    \includegraphics[width=200px]{Immagini/Snells_law_wavefronts.png}
+    \includegraphics[width=150px]{Immagini/Snells_law_wavefronts.png}
     \captionsetup{width=.8\linewidth}
     \caption[\textit{By Oleg Alexandrov}]{\textit{By Oleg Alexandrov\footnotemark} Rappresentazione della deformazione subita da un'onda sferica al passaggio da un mezzo a indice di rifrazione minore ad uno con indice di rifrazione maggiore. La linea rossa, normale al fronte d'onda, evidenzia la rifrazione}
     \label{fig:wawefrontRefraction}
@@ -282,57 +283,117 @@ Il rallentamento della luce in in mezzo a maggiore densità non è dovuto a feno
 
 La legge di Snell può essere derivata utilizzando il principio di Fermat, che afferma che il percorso seguito dalla luce tra due punti è quello che richiede il tempo minimo.
 
-Consideriamo un raggio di luce che passa da un mezzo con indice di rifrazione \( n_1 \) a un altro mezzo con indice di rifrazione \( n_2 \). Supponiamo che il raggio inizi nel punto \( A \) nel primo mezzo e termini nel punto \( B \) nel secondo mezzo. La superficie di separazione tra i due mezzi è piana e si trova lungo l'asse \( x \).
+Consideriamo un raggio di luce, perpendicolare al fronte d'onda, che passa da un mezzo con indice di rifrazione \( n_1 \) a un altro mezzo con indice di rifrazione \( n_2 \) come in \cref{fig:snellsLaw}. Supponiamo che il raggio inizi nel punto \( Q \) nel primo mezzo e termini nel punto \( P \) nel secondo mezzo.
 
-Il tempo impiegato dalla luce per percorrere il tratto \( A \to C \to B \), dove \( C \) è il punto di incidenza sulla superficie di separazione, è dato da:
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\linewidth]{Immagini/Snells_law_Diagram_B_vector.png}
+    \captionsetup{width=.8\linewidth}
+    \caption[\textit{By Oleg Alexandrov}]{\textit{By Smedlib\footnotemark} Rappresentazione di un raggio luminoso al passaggio da un mezzo con indice di rifrazione minore \( n_1 \) ad uno con indice di rifrazione maggiore \( n_2 \)}
+    \label{fig:snellsLaw}
+\end{figure}
+\footnotetext{By Smedlib, CC BY-SA 4.0, \href{https://commons.wikimedia.org/w/index.php?curid=60639100}{https://commons.wikimedia.org/w/index.php?curid=60639100}}
 
-\[ t = \frac{AC}{v_1} + \frac{CB}{v_2} \]
 
-dove \( v_1 \) e \( v_2 \) sono le velocità della luce nei rispettivi mezzi. Poiché la velocità della luce in un mezzo è inversamente proporzionale all'indice di rifrazione (\( v = \frac{c}{n} \)), possiamo riscrivere il tempo totale come:
+Il tempo impiegato dalla luce per percorrere il tratto \( Q \to O \to P \), dove \( O \) è il punto di incidenza sulla superficie di separazione, è dato da:
 
-\[ t = \frac{\sqrt{x^2 + y_1^2}}{v_1} + \frac{\sqrt{(d - x)^2 + y_2^2}}{v_2} \]
-\[ t = \frac{\sqrt{x^2 + y_1^2} \, n_1}{c} + \frac{\sqrt{(d - x)^2 + y_2^2} \, n_2}{c} \]
+\[ t = \frac{QO}{v_1} + \frac{OP}{v_2} \]
 
-Per trovare il minimo tempo, dobbiamo derivare questa espressione rispetto a \( x \) e porre la derivata uguale a zero:
+dove \( v_1 \) e \( v_2 \) sono le velocità della luce nei rispettivi mezzi. Poiché la velocità della luce in un mezzo è inversamente proporzionale all'indice di rifrazione \( v_i = \frac{c}{n_i} \), possiamo riscrivere il tempo totale come:
 
-\[ \frac{d}{dx} \left( \frac{\sqrt{x^2 + y_1^2} \, n_1}{c} + \frac{\sqrt{(d - x)^2 + y_2^2} \, n_2}{c} \right) = 0 \]
+\[ t = \frac{\sqrt{x^2 + a^2}}{v_1} + \frac{\sqrt{(l - x)^2 + b^2}}{v_2} \]
+\[ t = \frac{\sqrt{x^2 + a^2} \, n_1}{c} + \frac{\sqrt{(l - x)^2 + b^2} \, n_2}{c} \]
 
-Semplificando e derivando, otteniamo:
+Per trovare il tempo minimo deriviamo rispetto a \( x \):
 
-\[ \frac{n_1 x}{c \sqrt{x^2 + y_1^2}} - \frac{n_2 (d - x)}{c \sqrt{(d - x)^2 + y_2^2}} = 0 \]
+\[ \frac{d}{dx} \left( \frac{\sqrt{x^2 + a^2} \, n_1}{c} + \frac{\sqrt{(l - x)^2 + b^2} \, n_2}{c} \right) = 0 \]
 
-Moltiplicando entrambi i termini per \( c \) e semplificando, otteniamo:
+\[ \frac{n_1 x}{c \sqrt{x^2 + a^2}} - \frac{n_2 (l - x)}{c \sqrt{(l - x)^2 + b^2}} = 0 \]
 
-\[ \frac{n_1 x}{\sqrt{x^2 + y_1^2}} = \frac{n_2 (d - x)}{\sqrt{(d - x)^2 + y_2^2}} \]
+Semblificando  \( c \) otteniamo:
 
-Riconoscendo gli angoli di incidenza (\( \theta_1 \)) e di rifrazione (\( \theta_2 \)) nelle rispettive espressioni:
+\[ \frac{n_1 x}{\sqrt{x^2 + a^2}} = \frac{n_2 (l - x)}{\sqrt{(l - x)^2 + b^2}} \]
 
-\[ \sin \theta_1 = \frac{x}{\sqrt{x^2 + y_1^2}} \]
-\[ \sin \theta_2 = \frac{d - x}{\sqrt{(d - x)^2 + y_2^2}} \]
+Riconoscendo che il seno degli angoli di incidenza (\( \theta_1 \)) e di rifrazione (\( \theta_2 \)) è rispettivamente dato da:
+
+\[ \sin \theta_1 = \frac{x}{\sqrt{x^2 + a^2}} \]
+\[ \sin \theta_2 = \frac{l - x}{\sqrt{(l - x)^2 + b^2}} \]
 
 Possiamo scrivere:
 
 \[ n_1 \sin \theta_1 = n_2 \sin \theta_2 \]
 
-\subsection{Applicazioni della rifrazione nella spettroscopia}
-
-La rifrazione è utilizzata in vari dispositivi spettroscopici, come prismi e lenti, che sono fondamentali per la dispersione della luce e la formazione di spettri. Un esempio classico è il prisma di Newton, che scompone la luce bianca nei suoi colori componenti, formando uno spettro continuo.
-
-In spettroscopia ottica, i prismi e le reticelle di diffrazione sono comunemente usati per separare la luce in componenti spettrali, facilitando l'analisi delle lunghezze d'onda specifiche assorbite o emesse da un campione. Questo processo è essenziale per identificare gli elementi chimici e per studiare le proprietà fisiche e chimiche delle sostanze.
-
-Inoltre, i rifrattometri, strumenti basati sulla rifrazione, sono utilizzati per misurare l'indice di rifrazione di liquidi e solidi, fornendo informazioni sulle loro composizioni chimiche e proprietà strutturali. Queste misurazioni sono cruciali in molte applicazioni industriali e scientifiche, come il controllo di qualità nei processi di produzione e la caratterizzazione dei materiali \cite{hecht2002optics}.
-
-\section{Interferenza della Luce: L'Esperimento di Young}
+\section{Interferenza: L'Esperimento di Young}
 
 \subsection{Descrizione dell'esperimento di Young}
 
-L'esperimento di interferenza di Thomas Young, condotto nel 1801, è uno dei più celebri nella storia della fisica. Questo esperimento dimostrò la natura ondulatoria della luce e fu cruciale per la comprensione del fenomeno dell'interferenza. Nell'esperimento, la luce monocromatica viene fatta passare attraverso due fessure strettamente ravvicinate, creando un pattern di interferenza su uno schermo posto dietro le fessure. Questo pattern consiste in una serie di frange luminose e scure, dovute alla sovrapposizione delle onde luminose provenienti dalle due fessure.
+L'esperimento di interferenza di Thomas Young, condotto nel 1801, è uno dei più celebri nella storia della fisica. Questo esperimento dimostrò la natura ondulatoria della luce e fu cruciale per la comprensione del fenomeno dell'interferenza. Nell'esperimento, Young fece entrare la luce solare in una stanza buia attraverso un foglio di carta spessa appositamente forato con un ago, in modo da ottenere un fascio luminoso orizzontale e sufficientemente collimato. Il raggio così ottenuto andava a proiettarsi sulla parete opposta a quella su cui si trovava la finestra da cui era entrato, sulla quale era possibile riscontrare gli effetti dell'interferenza.
 
-\subsection{Concetto di interferenza}
+Lungo il percorso del fascio di luce, ad una distanza nota dalla parete, era posto un ostacolo in grado di dividere il raggio in due. Nonostante sia passato alla storia come esperimento della doppia fenditura, nella prima versione Young aveva utilizzato una carta dello spessore di qualche decimo di millimetro. Il raggio, così diviso, andava a formare sulla parete una figura d'interferenza, che scompariva coprendone una delle due metà. Questo dimostrava che la figura di interferenza era dovuta all'interazione tra le due metà del fascio luminoso e non provocata dall'ostacolo.
 
-L'interferenza si verifica quando due o più onde luminose si sovrappongono, combinandosi per formare un'onda risultante. Le frange luminose nel pattern di interferenza corrispondono alle regioni di interferenza costruttiva, dove le onde si sommano in fase, aumentando l'intensità della luce. Al contrario, le frange scure corrispondono alle regioni di interferenza distruttiva, dove le onde si sommano fuori fase, riducendo l'intensità della luce.
+La semplicità di questo esperimento e la sua rilevanza storica lo rendono ideale per la riproduzione da parte degli studenti, anche in mancanza di laboratori universitari. Sostituendo la luce solare con quella di un comune laser tascabile infatti, l'esperimento di Young è stato proposto nelle classi di liceo\cite{Scheider1986}. Con le restrizioni dovute alla pandemia scatenata dal SARS-CoV-2, che hanno imposto lo svolgimento delle lezioni in remoto, l'esperimento di Young è stato anche proposto agli studenti dell'università di Bologna come attività da svolgere direttamente a casa propria, utilizzando un CD come reticolo di diffrazione\cite{Campari2021}. 
 
-L'esperimento di Young fornisce una chiara evidenza della natura ondulatoria della luce, dimostrando che la luce può comportarsi come un'onda che si diffonde e interferisce. Questo concetto è fondamentale per la spettroscopia, in quanto molte tecniche spettroscopiche si basano sulla comprensione e l'utilizzo dell'interferenza della luce.
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\linewidth]{Immagini/double_slit_above.png}
+    \captionsetup{width=.8\linewidth}
+    \caption{Raffigurazione dell'esperimento della doppia fenditura.}
+    \label{fig:doubleSlitAbove}
+\end{figure}
+
+In \cref{fig:doubleSlitAbove} è raffigurata la versione dell'esperimento che utilizza una doppia fenditura per separare il fascio luminoso. La trattazione numerica è identica, in quanto l'effetto di intereferenza è dato dalla differenza di cammino ottico \( \Delta r \) tra i due raggi e non dall'interazione con l'ostacolo, ma la rappresentazione risulta più chiara. Perciò sarà utilizzata questa versione per ricavare la posizione dei massimi e dei minimi di interferenza.
+
+\subsection{Posizione dei massimi e dei minimi di interferenza}
+
+Per trovare la posizione delle bande luminose (massimi di interferenza) e le zone buie (minimi di interfereza) nell'esperimento della doppia fenditura, consideriamo un'onda luminosa coerente (proveniente ad esempio da un laser) e monocromatica, la quale incide su una barriera con due fenditure separate da una distanza \(d\). 
+
+La luce che passa attraverso le fenditure crea un pattern di interferenza su uno schermo situato a una distanza \(L\) dalle fenditure, con \(L \gg d \), in modo tale che i raggi \(r_1\) ed \(r_2\), che partono dalle due fessure e finiscono nello stesso punto sulla parete, possano essere considerati come paralleli.
+
+\begin{figure}[!ht]
+    \centering
+    \includegraphics[width=\linewidth]{Immagini/double_slit_setup.png}
+    \captionsetup{width=.8\linewidth}
+    \caption{raffigurazione dell'esperimento della doppia fenditura visto dall'alto. Il fascio luminoso coerente originato da \d viene diviso in due }
+    \label{fig:doubleSlitSetup}
+\end{figure}
+
+Da \cref{doubleSlitSetup} è anche facile vedere che l'angolo \(\theta\) di inclinazione dei raggi uscenti dalle fenditure è uguale all'angolo acuto del triangolo rettangolo che ha come ipotenusa \(O_1, O_2 \).
+
+Questo comporta che la differenza di cammino ottico tra le due onde sia data da:
+
+\[ \Delta L = d \sin \theta \]
+
+dove \(\theta\) è l'angolo di deviazione della luce rispetto alla perpendicolare alle fenditure.
+
+I massimi di interferenza si verificano quando la differenza di cammino ottico è un multiplo intero della lunghezza d'onda \(\lambda\):
+ 
+\[ d \sin \theta = m \lambda \]
+
+dove \(m\) (\(m = 0, \pm 1, \pm 2, \ldots\)) viene detto "ordine" del massimo di interferenza.
+  
+I minimi di interferenza si verificano quando la differenza di cammino ottico è un multiplo, dispari, di metà lunghezza d'onda: 
+
+\[ d \sin \theta = \left( m + \frac{1}{2} \right) \lambda \]
+
+Per \(\theta\) piccoli, possiamo approssimare \(\sin \theta \approx \tan \theta\). Se \(y\) è la distanza verticale dalla frangia centrale (frangia di ordine \(m=0\)) sullo schermo, allora:
+
+\[ \tan \theta \approx \sin \theta \approx \frac{y}{L} \]
+
+Sostituendo nella condizione per i massimi di interferenza:
+
+\[ d \frac{y}{L} = m \lambda \]
+
+Da cui la posizione delle frange di ordine \(m\) è:
+
+\[ y = \frac{m \lambda L}{d} \]
+
+Sostituendo nella condizione per i minimi di interferenza:
+
+\[ d \frac{y}{L} = \left( m + \frac{1}{2} \right) \lambda \]
+
+Da cui la posizione delle ombre di ordine \(m\) è:
+
+\[ y = \frac{m + \frac{1}{2} \lambda L}{d} \]
 
 \subsection{Importanza dell'interferenza nella spettroscopia}
 

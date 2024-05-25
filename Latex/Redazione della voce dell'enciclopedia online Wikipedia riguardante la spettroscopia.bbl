@@ -720,31 +720,117 @@
       \verb https://www.youtube.com/watch?v=CUjt36SD3h8
       \endverb
     \endentry
-    \entry{hecht2002optics}{book}{}{}
+    \entry{Scheider1986}{article}{}{}
       \name{author}{1}{}{%
-        {{hash=9a6efa2d012e3aaa08e4b6a8cf6a8b4c}{%
-           family={Hecht},
-           familyi={H\bibinitperiod},
-           given={Eugene},
-           giveni={E\bibinitperiod}}}%
+        {{hash=ae46103fd34261e3700ab7a7d99ce351}{%
+           family={Scheider},
+           familyi={S\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
-      \strng{fullhash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
-      \strng{fullhashraw}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
-      \strng{bibnamehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
-      \strng{authorbibnamehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
-      \strng{authornamehash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
-      \strng{authorfullhash}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
-      \strng{authorfullhashraw}{9a6efa2d012e3aaa08e4b6a8cf6a8b4c}
+      \strng{namehash}{ae46103fd34261e3700ab7a7d99ce351}
+      \strng{fullhash}{ae46103fd34261e3700ab7a7d99ce351}
+      \strng{fullhashraw}{ae46103fd34261e3700ab7a7d99ce351}
+      \strng{bibnamehash}{ae46103fd34261e3700ab7a7d99ce351}
+      \strng{authorbibnamehash}{ae46103fd34261e3700ab7a7d99ce351}
+      \strng{authornamehash}{ae46103fd34261e3700ab7a7d99ce351}
+      \strng{authorfullhash}{ae46103fd34261e3700ab7a7d99ce351}
+      \strng{authorfullhashraw}{ae46103fd34261e3700ab7a7d99ce351}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Optics}
-      \field{year}{2002}
+      \field{journaltitle}{Physics Teacher}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Bringing one of the great moments of science to the classroom}
+      \field{volume}{24}
+      \field{year}{1986}
+      \field{pages}{217\bibrangedash 219}
+      \range{pages}{3}
+    \endentry
+    \entry{Campari2021}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=da65698a722a89e639d51abaec463983}{%
+           family={Campari},
+           familyi={C\bibinitperiod},
+           given={Enrico\bibnamedelima Gianfranco},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=798dd01fe9d9be4e1a94752b98180a6f}{%
+           family={Barbetta},
+           familyi={B\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3e2cf71bd2ad4b79ff7c76bc823c430c}{%
+           family={Braibant},
+           familyi={B\bibinitperiod},
+           given={Sylvie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8e4e36505f93552c78632e7039e9a9da}{%
+           family={Cuzzuol},
+           familyi={C\bibinitperiod},
+           given={Nitya},
+           giveni={N\bibinitperiod}}}%
+        {{hash=70bb95b8445c24d7da915398e23d2854}{%
+           family={Gesuato},
+           familyi={G\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=389ee8d9d5898d951e6536d6f1a3cad0}{%
+           family={Maggiore},
+           familyi={M\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=611698821742165b69facdcff3755878}{%
+           family={Marulli},
+           familyi={M\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4d38325433b906a6178aedf5e986e70c}{%
+           family={Venturoli},
+           familyi={V\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b874ce208481ad71a1eda390b1726768}{%
+           family={Vignali},
+           familyi={V\bibinitperiod},
+           given={Cristian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{eeaa1d78fadbf3967c0847ad09f1b53f}
+      \strng{fullhash}{512e062869cd11277e3098b6aab5df3a}
+      \strng{fullhashraw}{512e062869cd11277e3098b6aab5df3a}
+      \strng{bibnamehash}{eeaa1d78fadbf3967c0847ad09f1b53f}
+      \strng{authorbibnamehash}{eeaa1d78fadbf3967c0847ad09f1b53f}
+      \strng{authornamehash}{eeaa1d78fadbf3967c0847ad09f1b53f}
+      \strng{authorfullhash}{512e062869cd11277e3098b6aab5df3a}
+      \strng{authorfullhashraw}{512e062869cd11277e3098b6aab5df3a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{The pandemic triggered by the SARS-CoV-2 virus has produced worldwide interruptions of face-to-face teaching activity in both schools and universities. In Italy, the quarantine began in the second half of February 2020 and lasted for all the second semester of lectures. The University of Bologna, where all the authors of the present article are based, developed and activated several interfaces necessary to efficiently deliver online teaching courses with the utmost speed. The framework used by the authors is based on a common platform, Microsoft TEAMS, available to all teachers at Bologna University.}}
+      \field{issn}{0031-921X}
+      \field{journaltitle}{The Physics Teacher}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Physics Laboratory at Home During the COVID-19 Pandemic}}
+      \field{volume}{59}
+      \field{year}{2021}
+      \field{pages}{68\bibrangedash 71}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1119/5.0020515
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aapt/pte/article-pdf/59/1/68/16060044/68\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1119/5.0020515
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1119/5.0020515
+      \endverb
     \endentry
     \entry{born1999principles}{book}{}{}
       \name{author}{2}{}{%
