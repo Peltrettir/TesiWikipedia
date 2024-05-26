@@ -59,7 +59,7 @@ Anno Accademico 2023/2024
 
 \vspace*{\fill}
 \begin{flushright}
-It is a good thing for an uneducated man to read books of quotations
+    Cuiusvis hominis est errare; nullius, nisi insipientis, in errore perseverare
 \end{flushright}
 \vspace*{\fill}\newpage
 
@@ -329,9 +329,9 @@ Possiamo scrivere:
 
 L'esperimento di interferenza di Thomas Young, condotto nel 1801, è uno dei più celebri nella storia della fisica. Questo esperimento dimostrò la natura ondulatoria della luce e fu cruciale per la comprensione del fenomeno dell'interferenza. Nell'esperimento, Young fece entrare la luce solare in una stanza buia attraverso un foglio di carta spessa appositamente forato con un ago, in modo da ottenere un fascio luminoso orizzontale e sufficientemente collimato. Il raggio così ottenuto andava a proiettarsi sulla parete opposta a quella su cui si trovava la finestra da cui era entrato, sulla quale era possibile riscontrare gli effetti dell'interferenza.
 
-Lungo il percorso del fascio di luce, ad una distanza nota dalla parete, era posto un ostacolo in grado di dividere il raggio in due. Nonostante sia passato alla storia come esperimento della doppia fenditura, nella prima versione Young aveva utilizzato una carta dello spessore di qualche decimo di millimetro. Il raggio, così diviso, andava a formare sulla parete una figura d'interferenza, che scompariva coprendone una delle due metà. Questo dimostrava che la figura di interferenza era dovuta all'interazione tra le due metà del fascio luminoso e non provocata dall'ostacolo.
+Lungo il percorso del fascio di luce, ad una distanza nota dalla parete, era posto un ostacolo in grado di dividere il raggio in due. Nonostante sia passato alla storia come esperimento della doppia fenditura, nella prima versione Young aveva utilizzato una carta dello spessore di qualche decimo di millimetro. Il raggio, così diviso, andava a formare sulla parete una figura d'interferenza, che scompariva coprendone una delle due metà. Questo dimostrava che la figura di interferenza fosse dovuta all'interazione tra le due metà del fascio luminoso e non provocata dall'ostacolo.
 
-La semplicità di questo esperimento e la sua rilevanza storica lo rendono ideale per la riproduzione da parte degli studenti, anche in mancanza di laboratori universitari. Sostituendo la luce solare con quella di un comune laser tascabile infatti, l'esperimento di Young è stato proposto nelle classi di liceo\cite{Scheider1986}. Con le restrizioni dovute alla pandemia scatenata dal SARS-CoV-2, che hanno imposto lo svolgimento delle lezioni in remoto, l'esperimento di Young è stato anche proposto agli studenti dell'università di Bologna come attività da svolgere direttamente a casa propria, utilizzando un CD come reticolo di diffrazione\cite{Campari2021}. 
+La semplicità di questo esperimento e la sua rilevanza storica lo rendono ideale per la riproduzione da parte degli studenti, anche in mancanza di laboratori universitari. Sostituendo la luce solare con quella di un comune laser tascabile infatti, l'esperimento di Young è stato proposto nelle classi di liceo\cite{Scheider1986}. Con le restrizioni dovute alla pandemia scatenata dal SARS-CoV-2, che hanno imposto lo svolgimento delle lezioni in remoto, l'esperimento di Young è stato anche proposto agli studenti dell'università di Bologna come attività di laboratorio da svolgere direttamente a casa propria, utilizzando un CD come reticolo di diffrazione\cite{Campari2021}. 
 
 \begin{figure}[!ht]
     \centering
@@ -345,7 +345,7 @@ In \cref{fig:doubleSlitAbove} è raffigurata la versione dell'esperimento che ut
 
 \subsection{Posizione dei massimi e dei minimi di interferenza}
 
-Per trovare la posizione delle bande luminose (massimi di interferenza) e le zone buie (minimi di interfereza) nell'esperimento della doppia fenditura, consideriamo un'onda luminosa coerente (proveniente ad esempio da un laser) e monocromatica, la quale incide su una barriera con due fenditure separate da una distanza \(d\). 
+Per trovare la posizione delle bande luminose, i massimi di interferenza, e le zone buie, i minimi di interfereza, nell'esperimento della doppia fenditura, consideriamo un'onda luminosa coerente e monocromatica, proveniente ad esempio da un laser, la quale incide su una barriera con due fenditure separate da una distanza \(d\). 
 
 La luce che passa attraverso le fenditure crea un pattern di interferenza su uno schermo situato a una distanza \(L\) dalle fenditure, con \(L \gg d \), in modo tale che i raggi \(r_1\) ed \(r_2\), che partono dalle due fessure e finiscono nello stesso punto sulla parete, possano essere considerati come paralleli.
 
@@ -357,11 +357,11 @@ La luce che passa attraverso le fenditure crea un pattern di interferenza su uno
     \label{fig:doubleSlitSetup}
 \end{figure}
 
-Da \cref{doubleSlitSetup} è anche facile vedere che l'angolo \(\theta\) di inclinazione dei raggi uscenti dalle fenditure è uguale all'angolo acuto del triangolo rettangolo che ha come ipotenusa \(O_1, O_2 \).
+Da \cref{fig:doubleSlitSetup} è anche facile vedere che l'angolo \(\theta\) di inclinazione dei raggi uscenti dalle fenditure è uguale all'angolo acuto del triangolo rettangolo che ha come ipotenusa \(O_1, O_2 \).
 
 Questo comporta che la differenza di cammino ottico tra le due onde sia data da:
 
-\[ \Delta L = d \sin \theta \]
+\[ \Delta r = d \sin \theta \]
 
 dove \(\theta\) è l'angolo di deviazione della luce rispetto alla perpendicolare alle fenditure.
 
@@ -393,112 +393,95 @@ Sostituendo nella condizione per i minimi di interferenza:
 
 Da cui la posizione delle ombre di ordine \(m\) è:
 
-\[ y = \frac{m + \frac{1}{2} \lambda L}{d} \]
+\[ y = \frac{\left(m + \frac{1}{2} \right) \lambda L}{d} \]
 
-\subsection{Importanza dell'interferenza nella spettroscopia}
+\section{Emissione e Assorbimento: Il Modello Atomico di Bohr}
 
-L'interferenza è alla base di molte tecniche spettroscopiche avanzate. Ad esempio:
+Il modello atomico di Bohr, introdotto da Niels Bohr nel 1913, rappresenta un fondamentale cambio di paradigma nella comprensione della struttura atomica. Prima del modello di Bohr, il modello planetario di Rutherford descriveva l'atomo come un nucleo centrale attorno al quale orbitavano gli elettroni, similmente ai pianeti attorno al Sole. Tuttavia, questo modello presentava un problema significativo: secondo l'elettrodinamica classica, gli elettroni in movimento avrebbero dovuto emettere radiazione elettromagnetica, perdendo energia e spiraleggiando verso il nucleo, portando all'instabilità dell'atomo. Bohr risolse questo problema proponendo che gli elettroni potessero occupare solo orbite discrete e stabili, in cui non emettono radiazione \cite{Bohr1913}.
 
-\begin{itemize}
-\item \textbf{Spettroscopia a interferometria di Fourier (FTIR)}: Utilizza l'interferenza della luce per ottenere spettri con alta risoluzione e sensibilità. Un interferometro di Michelson è spesso utilizzato per dividere e ricombinare la luce, creando un interferogramma che viene successivamente trasformato in uno spettro utilizzando la trasformata di Fourier.
-\item \textbf{Spettroscopia di diffrazione}: Utilizza reticelle di diffrazione per separare la luce in lunghezze d'onda componenti attraverso l'interferenza. Questo metodo è essenziale per l'analisi spettrale dettagliata in molteplici applicazioni scientifiche.
-\item \textbf{Interferometria di Fabry-Perot}: Utilizza cavità risonanti per produrre frange di interferenza ad alta risoluzione, permettendo misurazioni precise delle lunghezze d'onda e delle frequenze della luce.
-\end{itemize}
+Bohr propose tre postulati principali per risolvere le limitazioni del modello di Rutherford:
 
-Queste tecniche dimostrano come il fenomeno dell'interferenza sia sfruttato in spettroscopia per analizzare la luce con estrema precisione, fornendo informazioni dettagliate sulla struttura e la composizione dei materiali \cite{born1999principles}.
+\begin{enumerate}
+    \item \textbf{Orbite Stazionarie:} Gli elettroni possono orbitare attorno al nucleo solo in certe orbite discrete senza emettere radiazione. Queste orbite stazionarie corrispondono a specifici livelli di energia quantizzata \cite{BohrModelBritannica}.
+    \item \textbf{Quantizzazione del Momento Angolare:} Il momento angolare degli elettroni in orbita è quantizzato e può assumere solo valori che sono multipli interi della costante di Planck ridotta (\(\hbar = h/2\pi\)):
+        \[L = n\hbar = n\frac{h}{2\pi}\]
+        dove \( n \) è un numero intero positivo (noto come numero quantico principale) \cite{HyperPhysicsBohr}.
+ 
+    \item \textbf{Transizioni Elettroniche e Emissione/Assorbimento di Energia:} Gli elettroni possono cambiare orbita solo assorbendo o emettendo un fotone con energia pari alla differenza tra i livelli energetici:
+        \[\Delta E = E_2 - E_1 = h\nu\]
+        dove \( h \) è la costante di Planck e \( \nu \) è la frequenza della radiazione emessa o assorbita \cite{Bohr1913}.
+ \end{enumerate}
 
-\section{Emissione e Assorbimento di Radiazione: Il Modello Atomico di Bohr}
+\subsection{Raggio di Bohr}
 
-\subsection{Introduzione al modello atomico di Bohr}
+Il modello atomico di Bohr risulta particolarmente efficace per ricavare i livelli energetici degli atomi idrogenoidi, e di conseguenza è capace di predirne con buona precisione gli spettri di emissione ed assobimento.
 
-Il modello atomico di Bohr, proposto da Niels Bohr nel 1913, rappresenta un punto di svolta nella comprensione della struttura atomica e dei processi di emissione e assorbimento della luce. Bohr introdusse l'idea che gli elettroni negli atomi orbitano intorno al nucleo in livelli di energia quantizzati, ovvero, gli elettroni possono occupare solo determinate orbite stazionarie con energie specifiche. Quando un elettrone salta da un'orbita a un'altra, assorbe o emette un fotone con energia pari alla differenza di energia tra le due orbite \cite{bohr1913constitution}.
+Se \(m_e\) è la massa dell'elettrone, \(v\) la velocità ed \(r\) il raggio dell'orbita, allora il suo momento angolare quantizzato sarà dato da:
 
-\subsection{Spettri di emissione e assorbimento}
+\[ L = m_e v r = n \hbar \]
 
-Gli spettri di emissione e assorbimento forniscono informazioni cruciali sulla struttura degli atomi e delle molecole.
+Da cui
 
-\begin{itemize}
-\item \textbf{Spettri di emissione}: Si osservano quando gli elettroni eccitati in un atomo o una molecola tornano a uno stato energetico inferiore, emettendo fotoni. Ogni elemento chimico ha uno spettro di emissione caratteristico, costituito da una serie di linee spettrali a lunghezze d'onda specifiche. Queste linee corrispondono alle transizioni energetiche degli elettroni tra i diversi livelli quantizzati.
-\item \textbf{Spettri di assorbimento}: Si formano quando la luce bianca passa attraverso un gas o un liquido, e alcuni fotoni vengono assorbiti dagli atomi o dalle molecole del campione, portando gli elettroni a livelli energetici superiori. Le lunghezze d'onda assorbite appaiono come linee scure nello spettro continuo, corrispondenti alle stesse transizioni osservate negli spettri di emissione.
-\end{itemize}
+\[ v = \frac{n \hbar}{m_e r} \]
 
-L'analisi degli spettri di emissione e assorbimento permette di identificare la composizione elementare di un campione e di studiare le proprietà fisiche e chimiche delle sostanze.
+Perchè l'orbita sia stabile l'attrazione coulumbiana dovrà essere bilanciata dalla forza centrifuga:
 
-\subsection{Applicazioni e implicazioni nella spettroscopia}
+\[ \frac{m_e v^2}{r} = \frac{Ze^2}{4 \pi \epsilon_0 r^2} \]
 
-Il modello atomico di Bohr ha avuto un impatto profondo sulla spettroscopia, fornendo una base teorica per comprendere i processi di emissione e assorbimento della radiazione elettromagnetica. Alcune delle applicazioni chiave includono:
+dove \(Z\) è il numero di protoni nel nucleo, \(e\) è la carica dell'elettrone ed \(\epsilon\) la costante dielettrica del vuoto. Sostituendo \(v\):
 
-\begin{itemize}
-\item \textbf{Analisi chimica}: La spettroscopia di emissione e assorbimento è utilizzata per identificare gli elementi presenti in un campione, come nella spettroscopia di emissione atomica e nell'assorbimento atomico.
-\item \textbf{Astrofisica}: Gli spettri di emissione e assorbimento delle stelle e di altri corpi celesti forniscono informazioni sulla loro composizione chimica, temperatura e densità.
-\item \textbf{Diagnostica medica}: Tecniche spettroscopiche basate sull'emissione e l'assorbimento sono utilizzate per analizzare campioni biologici, come nella spettroscopia a fluorescenza per la rilevazione di biomarcatori.
-\end{itemize}
+\[ \frac{m_e \left(\frac{n \hbar}{m_e r}\right)^2}{r} = \frac{Ze^2}{4 \pi \epsilon_0 r^2} \]
 
-L'approccio quantistico introdotto da Bohr è stato ulteriormente sviluppato dalla meccanica quantistica moderna, che ha raffinato la comprensione delle interazioni tra luce e materia, consentendo tecniche spettroscopiche sempre più precise e avanzate.
+Semplificando e risolvendo per \(r\):
 
-\section{Risultati Principali della Spettroscopia}
+\[ r = \frac{4 \pi \epsilon_0 n^2 \hbar^2}{Zm_e e^2} \]
 
-\subsection{Identificazione degli elementi e delle molecole}
+Che per l'orbita più piccola \(n = 1\) l'atomo di idrogeno \(Z = 1\) da il raggio di Bohr:
 
-La spettroscopia è uno strumento fondamentale per l'identificazione degli elementi chimici e delle molecole. Ogni elemento emette o assorbe radiazione a lunghezze d'onda specifiche, creando uno spettro unico che funge da "impronta digitale" caratteristica. Questo permette di determinare la composizione elementare di campioni sconosciuti. Ad esempio, nella spettroscopia di emissione atomica, l'analisi delle linee spettrali emesse da un campione permette di identificare gli elementi presenti. Analogamente, nella spettroscopia di assorbimento, le lunghezze d'onda assorbite indicano la presenza di specifici elementi o molecole nel campione \cite{strasburger2014spectroscopy}.
+\[ a_0 = \frac{4 \pi \epsilon_0 \hbar^2}{m_e e^2} \approx 0,53 \AA \]
 
-\subsection{Analisi della composizione chimica delle stelle}
+\subsection{Livelli Energetici}
 
-In astrofisica, la spettroscopia è uno strumento cruciale per studiare la composizione chimica delle stelle e di altri corpi celesti. Analizzando gli spettri di emissione e assorbimento delle stelle, gli scienziati possono determinare gli elementi presenti nelle loro atmosfere. Questa tecnica, nota come spettroscopia stellare, ha permesso di scoprire che le stelle sono composte principalmente da idrogeno ed elio, con tracce di altri elementi. Inoltre, la spettroscopia permette di studiare le condizioni fisiche delle stelle, come la temperatura e la densità, fornendo informazioni preziose sulla loro evoluzione e sulla struttura dell'universo.
+L'energia totale \(E\) dell'elettrone è data dalla somma della sua energia cinetica \(K\) e di quella potenziale coulumbiana \(U\):
 
-\subsection{Applicazioni nella medicina e nella biologia}
+\[ E = K + U = \frac{1}{2} m_e v^2 - \frac{Ze^2}{4 \pi \epsilon_0 r} \]
 
-La spettroscopia ha numerose applicazioni in medicina e biologia. In medicina, è utilizzata per la diagnosi e il monitoraggio di diverse condizioni cliniche. Ad esempio, la spettroscopia di risonanza magnetica nucleare (NMR) è impiegata per ottenere immagini dettagliate del corpo umano, permettendo la diagnosi di tumori e altre patologie. La spettroscopia a fluorescenza è utilizzata per rilevare biomarcatori e monitorare processi biologici in tempo reale. In biologia, la spettroscopia infrarossa e la spettroscopia Raman sono utilizzate per studiare le strutture molecolari e le interazioni nelle cellule e nei tessuti, fornendo informazioni fondamentali sulla biochimica e sulla fisiologia.
+Sostituendo \(v\):
 
-La capacità della spettroscopia di fornire informazioni dettagliate sulla composizione chimica e sulle proprietà fisiche dei campioni la rende uno strumento indispensabile in molteplici campi scientifici e applicativi. Le sue applicazioni spaziano dalla ricerca fondamentale alla diagnostica clinica, dimostrando la versatilità e l'importanza di questa tecnica.
+\[ E = \frac{1}{2} m_e \left(\frac{n \hbar}{m_e r}\right)^2 - \frac{Ze^2}{4 \pi \epsilon_0 r} \]
 
-\section{Tecniche Avanzate di Spettroscopia}
+E successivamente \(r\):
 
-\subsection{Spettroscopia a trasformata di Fourier (FTIR)}
+\[ E = - \frac{m_e Z e^4}{8 \epsilon_0^2 h^2} \frac{1}{n^2} \]
 
-La spettroscopia a trasformata di Fourier (FTIR) è una tecnica potente che sfrutta l'interferometria per ottenere spettri con alta risoluzione e sensibilità. In un interferometro di Michelson, un raggio di luce viene diviso in due percorsi che vengono poi ricombinati, producendo un interferogramma. Questo interferogramma contiene tutte le informazioni spettrali del campione e viene trasformato in uno spettro attraverso la trasformata di Fourier. L'FTIR è particolarmente utile per analizzare campioni complessi, come miscele chimiche, perché permette di identificare e quantificare i componenti in modo rapido e preciso \cite{griffiths2007fourier}.
+\subsection{Costante di Rydberg}
 
-\subsection{Spettroscopia Raman}
+La legge di Rydberg è una legge empirca formulata da Johannes Rydberg nel 1888, che descrive le lunghezze d'onda degli spettri di emissione e assorbimento degli atomi idrogenoidi. Se \(\lambda\) è la lunghezza d'onda della luce emessa o assorbita allora secondo la legge di Rydberg:
 
-La spettroscopia Raman è una tecnica non distruttiva che si basa sulla diffusione inelastica della luce. Quando la luce interagisce con una molecola, la maggior parte della luce viene diffusa elasticamente (effetto Rayleigh), ma una piccola frazione viene diffusa inelasticamente, con un cambiamento in energia corrispondente alle vibrazioni molecolari. Questo cambiamento energetico produce uno spettro Raman caratteristico che può essere utilizzato per identificare le molecole e studiare le loro interazioni. La spettroscopia Raman è ampiamente utilizzata in chimica, fisica, biologia e scienze dei materiali per analizzare la composizione molecolare e strutturale dei campioni.
+\[ \frac{1}{\lambda} = R_H \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right) \]
 
-\subsection{Spettroscopia di risonanza magnetica nucleare (NMR)}
+dove \(R_H\) è la costante di Rydberg, e \(n_1\) e \(n_2\) sono numeri interi.
 
-La spettroscopia di risonanza magnetica nucleare (NMR) è una tecnica estremamente potente per lo studio della struttura molecolare. Basata sull'interazione tra i nuclei atomici e un campo magnetico esterno, l'NMR fornisce informazioni dettagliate sulla disposizione degli atomi in una molecola. Quando i nuclei atomici, come quelli dell'idrogeno o del carbonio-13, sono immersi in un campo magnetico e irradiati con onde radio, assorbono energia e poi la rilasciano, producendo un segnale caratteristico. Questo segnale può essere analizzato per determinare la struttura chimica e conformazionale delle molecole. L'NMR è particolarmente utile in chimica organica e biochimica per identificare e caratterizzare composti organici e biomolecole.
+Considerando la quantizzazione dell'energia nell'atomo di Bohr avremo:
+\[\Delta E = E_2 - E_1 = h\nu = \frac{hc}{\lambda}\]
 
-\subsection{Altre tecniche spettroscopiche avanzate}
+Recuperando i livelli energetici degli atomi idrogenoidi e risolvendo per \(1/\lambda\):
 
-Oltre a FTIR, Raman e NMR, esistono numerose altre tecniche spettroscopiche avanzate, ciascuna con applicazioni specifiche:
+\[\frac{1}{\lambda}=\frac{1}{hc}\left(E_2 - E_1\right) 
+    = \frac{1}{hc} \frac{m_e Z e^4}{2 \epsilon_0^2 \hbar^2}\left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right)
+    = \frac{R_E}{hc}\left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right) = R_H\left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right) \]
 
-\begin{itemize}
-\item \textbf{Spettroscopia XPS (X-ray Photoelectron Spectroscopy)}: Utilizzata per studiare la composizione elementare e lo stato chimico delle superfici.
-\item \textbf{Spettroscopia EPR (Electron Paramagnetic Resonance)}: Impiegata per analizzare specie con elettroni spaiati, come radicali liberi e centri di metalli di transizione.
-\item \textbf{Spettroscopia di massa ad alta risoluzione (HRMS)}: Fornisce informazioni dettagliate sulla massa e la struttura dei composti chimici, utile per analisi precise e identificazione di molecole complesse.
-\end{itemize}
+\[ R_H = \frac{m_e e^4}{8 \epsilon_0^2 h^2} \]
 
-Queste tecniche avanzate di spettroscopia permettono di ottenere una comprensione approfondita delle proprietà chimiche e fisiche dei materiali, aprendo nuove frontiere nella ricerca scientifica e nelle applicazioni tecnologiche.
+Dove \(R_E\) prendei l nome di energia di Rydberg,
 
-\section{Conclusioni e Prospettive Future}
+\subsection{Superamento dell'atomo di Boh}
 
-\subsection{Riepilogo dei punti chiave}
+La capacità del modello di Bohr di spiegare le linee spettrali discrete di emissione ed assorbimento degli atomi idrogenoidi e di dare supporto teorico alla legge empirica di Rydberg ne garantirono l'adozione.
 
-La spettroscopia rappresenta una delle tecniche più versatili e potenti nella scienza moderna, permettendo di studiare l'interazione tra la luce e la materia per ottenere informazioni dettagliate sulla composizione, struttura e dinamica dei materiali. Attraverso principi fondamentali come la rifrazione (illustrata dalla Legge di Snell) e l'interferenza (dimostrata dall'esperimento di Young), e grazie a modelli teorici come quello atomico di Bohr, la spettroscopia ha fornito strumenti essenziali per l'identificazione e l'analisi di elementi e molecole.
+Tuttavia, il modello, presentava alcune limitazioni. Non poteva spiegare gli spettri di atomi più complessi rispetto agli idrogenoidi e non teneva conto degli effetti di schermatura dovuti alle interazioni tra più elettroni. Inoltre, non poteva giustificare completamente alcune osservazioni sperimentali, come le doppie linee osservate in alcuni spettri, dovute all'effetto Zeeman \cite{ZeemanEffect}.
 
-Tecniche avanzate come la spettroscopia a trasformata di Fourier (FTIR), la spettroscopia Raman e la risonanza magnetica nucleare (NMR) hanno ampliato ulteriormente le possibilità di questa disciplina, permettendo applicazioni che vanno dalla chimica all'astrofisica, dalla biologia alla medicina. Questi sviluppi hanno rivoluzionato il modo in cui comprendiamo la materia e le sue interazioni, portando a scoperte fondamentali e innovazioni tecnologiche.
-
-\subsection{Sviluppi recenti e future direzioni della ricerca spettroscopica}
-
-La ricerca spettroscopica è in continua evoluzione, guidata dalla necessità di migliorare la risoluzione, la sensibilità e la velocità delle tecniche esistenti, nonché di sviluppare nuove metodologie per affrontare sfide scientifiche emergenti. Alcuni dei principali sviluppi recenti e delle prospettive future includono:
-
-\begin{itemize}
-\item \textbf{Spettroscopia ultrarapida}: Tecniche che utilizzano impulsi laser femtosecondi per studiare processi dinamici ultra veloci in molecole e materiali. Queste tecniche permettono di osservare reazioni chimiche e transizioni di fase in tempo reale, aprendo nuove possibilità nella chimica e nella fisica dei materiali.
-\item \textbf{Spettroscopia a singola molecola}: Permette di studiare le proprietà e le dinamiche di singole molecole, fornendo una visione dettagliata delle interazioni molecolari e dei processi biologici a un livello senza precedenti. Questa tecnica ha applicazioni in biologia, chimica e scienze dei materiali.
-\item \textbf{Spettroscopia di imaging}: Combina la spettroscopia con tecniche di imaging per ottenere mappe spaziali dettagliate delle proprietà chimiche e fisiche dei campioni. Questo approccio è particolarmente utile in scienze dei materiali, biologia e medicina per studiare la distribuzione di elementi e composti in campioni complessi.
-\item \textbf{Intelligenza artificiale e apprendimento automatico}: L'uso di algoritmi di intelligenza artificiale per analizzare grandi dataset spettroscopici sta rivoluzionando il modo in cui vengono interpretati i dati, permettendo analisi più rapide e accurate e la scoperta di nuove correlazioni e fenomeni.
-\item \textbf{Spettroscopia in ambienti estremi}: Lo sviluppo di tecniche spettroscopiche per studiare materiali e processi in condizioni estreme di temperatura, pressione e campo magnetico, è essenziale per la ricerca in fisica dei materiali e geoscienze.
-\end{itemize}
-
-Questi sviluppi promettono di espandere ulteriormente le applicazioni della spettroscopia, offrendo nuove opportunità per la ricerca scientifica e l'innovazione tecnologica. La spettroscopia continuerà a giocare un ruolo cruciale nella comprensione e nell'ingegnerizzazione del mondo naturale, contribuendo al progresso in molti campi della scienza e della tecnologia \cite{johnson2020future}.
+Dopo il modello di Bohr, la comprensione della struttura atomica si è evoluta con lo sviluppo della meccanica quantistica. Erwin Schrödinger introdusse l'equazione di Schrödinger nel 1926, descrivendo gli elettroni come onde stazionarie in orbite probabilistiche.
 
 \chapter{Il mio lavoro}
 \section{Modalità di Redazione e Gestione dei Contenuti}
@@ -510,7 +493,6 @@ Questi sviluppi promettono di espandere ulteriormente le applicazioni della spet
 \newpage
 
 \printbibliography
-
 
 \end{document}
 
