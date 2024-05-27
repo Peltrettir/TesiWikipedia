@@ -19,6 +19,173 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{irwin1995citizen}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=57e483540e81713b58dfa7a1029a68d4}{%
+           family={Irwin},
+           familyi={I\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London; New York}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{57e483540e81713b58dfa7a1029a68d4}
+      \strng{fullhash}{57e483540e81713b58dfa7a1029a68d4}
+      \strng{fullhashraw}{57e483540e81713b58dfa7a1029a68d4}
+      \strng{bibnamehash}{57e483540e81713b58dfa7a1029a68d4}
+      \strng{authorbibnamehash}{57e483540e81713b58dfa7a1029a68d4}
+      \strng{authornamehash}{57e483540e81713b58dfa7a1029a68d4}
+      \strng{authorfullhash}{57e483540e81713b58dfa7a1029a68d4}
+      \strng{authorfullhashraw}{57e483540e81713b58dfa7a1029a68d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780415115483}
+      \field{series}{Environment and Society}
+      \field{title}{Citizen Science: A Study of People, Expertise and Sustainable Development}
+      \field{year}{1995}
+      \verb{urlraw}
+      \verb https://www.routledge.com/Citizen-Science-A-Study-of-People-Expertise-and-Sustainable-Development/Irwin/p/book/9780415130103
+      \endverb
+      \verb{url}
+      \verb https://www.routledge.com/Citizen-Science-A-Study-of-People-Expertise-and-Sustainable-Development/Irwin/p/book/9780415130103
+      \endverb
+    \endentry
+    \entry{bonney2015}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=bde24756a59e9edc3efd821d7b05da4d}{%
+           family={Bonney},
+           familyi={B\bibinitperiod},
+           given={Rick},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f2aa76c39ed9acc202e69b454ced9115}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={Tina\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c9fe637da70e4a27681e4f026f54e808}{%
+           family={Ballard},
+           familyi={B\bibinitperiod},
+           given={Heidi\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=4e0ec47fe667159ae183a8d8cead383e}{%
+           family={Enck},
+           familyi={E\bibinitperiod},
+           given={Jody\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e7f008e5b9b03cea6d621108205ad5c}
+      \strng{fullhash}{9a8d8ee32abeb18a8ff0474c1cf0f7b8}
+      \strng{fullhashraw}{9a8d8ee32abeb18a8ff0474c1cf0f7b8}
+      \strng{bibnamehash}{5e7f008e5b9b03cea6d621108205ad5c}
+      \strng{authorbibnamehash}{5e7f008e5b9b03cea6d621108205ad5c}
+      \strng{authornamehash}{5e7f008e5b9b03cea6d621108205ad5c}
+      \strng{authorfullhash}{9a8d8ee32abeb18a8ff0474c1cf0f7b8}
+      \strng{authorfullhashraw}{9a8d8ee32abeb18a8ff0474c1cf0f7b8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the past 20 years, thousands of citizen science projects engaging millions of participants in collecting and/or processing data have sprung up around the world. Here we review documented outcomes from four categories of citizen science projects which are defined by the nature of the activities in which their participants engage – Data Collection, Data Processing, Curriculum-based, and Community Science. We find strong evidence that scientific outcomes of citizen science are well documented, particularly for Data Collection and Data Processing projects. We find limited but growing evidence that citizen science projects achieve participant gains in knowledge about science knowledge and process, increase public awareness of the diversity of scientific research, and provide deeper meaning to participants’ hobbies. We also find some evidence that citizen science can contribute positively to social well-being by influencing the questions that are being addressed and by giving people a voice in local environmental decision making. While not all citizen science projects are intended to achieve a greater degree of public understanding of science, social change, or improved science -society relationships, those projects that do require effort and resources in four main categories: (1) project design, (2) outcomes measurement, (3) engagement of new audiences, and (4) new directions for research.}
+      \field{journaltitle}{Public Understanding of Science}
+      \field{note}{PMID: 26445860}
+      \field{number}{1}
+      \field{title}{Can citizen science enhance public understanding of science?}
+      \field{volume}{25}
+      \field{year}{2016}
+      \field{pages}{2\bibrangedash 16}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1177/0963662515607406
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1177/0963662515607406
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0963662515607406
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0963662515607406
+      \endverb
+    \endentry
+    \entry{tle_documentario}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=39d1b02c728a0b5f43c5f7f9b27f02f0}{%
+           family={Schyma},
+           familyi={S\bibinitperiod},
+           given={Hank},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b44eba830fe9817fbe8e53c82f1cbe04}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{722cc6174ef6a6445bd43bd122a88f57}
+      \strng{fullhash}{722cc6174ef6a6445bd43bd122a88f57}
+      \strng{fullhashraw}{722cc6174ef6a6445bd43bd122a88f57}
+      \strng{bibnamehash}{722cc6174ef6a6445bd43bd122a88f57}
+      \strng{authorbibnamehash}{722cc6174ef6a6445bd43bd122a88f57}
+      \strng{authornamehash}{722cc6174ef6a6445bd43bd122a88f57}
+      \strng{authorfullhash}{722cc6174ef6a6445bd43bd122a88f57}
+      \strng{authorfullhashraw}{722cc6174ef6a6445bd43bd122a88f57}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-05-26}
+      \field{title}{Strangest Things Happen in the Sky}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=tGPQ5kzJ9Tg
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=tGPQ5kzJ9Tg
+      \endverb
+    \endentry
+    \entry{passas-varo2023spectroscopy}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=469b88b35594c09f6d2f77c5dd7c9649}{%
+           family={Passas-Varo},
+           familyi={P\bibinithyphendelim V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4338406b92eeae8ffbef7f5ce5a8164}
+      \strng{fullhash}{d4338406b92eeae8ffbef7f5ce5a8164}
+      \strng{fullhashraw}{d4338406b92eeae8ffbef7f5ce5a8164}
+      \strng{bibnamehash}{d4338406b92eeae8ffbef7f5ce5a8164}
+      \strng{authorbibnamehash}{d4338406b92eeae8ffbef7f5ce5a8164}
+      \strng{authornamehash}{d4338406b92eeae8ffbef7f5ce5a8164}
+      \strng{authorfullhash}{d4338406b92eeae8ffbef7f5ce5a8164}
+      \strng{authorfullhashraw}{d4338406b92eeae8ffbef7f5ce5a8164}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{Spectroscopy of a mesospheric ghost reveals iron emissions}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{7810}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-023-42892-1
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41467-023-42892-1
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41467-023-42892-1
+      \endverb
+    \endentry
     \entry{lih2009wikipedia}{book}{}{}
       \name{author}{1}{}{%
         {{hash=63645a34eb13c90a21ea6fe79e58d48f}{%
@@ -38,8 +205,8 @@
       \strng{authornamehash}{63645a34eb13c90a21ea6fe79e58d48f}
       \strng{authorfullhash}{63645a34eb13c90a21ea6fe79e58d48f}
       \strng{authorfullhashraw}{63645a34eb13c90a21ea6fe79e58d48f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Wikipedia Revolution: How a Bunch of Nobodies Created the World's Greatest Encyclopedia}
@@ -61,8 +228,8 @@
       \strng{authornamehash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
       \strng{authorfullhash}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
       \strng{authorfullhashraw}{dc98036d5d01f88b9fdd0b5ff2bc8a2d}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://c2.com/doc/wikisym/WikiSym2006/cunningham.html}}
@@ -104,8 +271,8 @@
       \strng{authornamehash}{0511f0f4e72a1daa421f388ccb90acec}
       \strng{authorfullhash}{8c16005b782f59ea553bdb53df1bac42}
       \strng{authorfullhashraw}{8c16005b782f59ea553bdb53df1bac42}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Communications of the ACM}
@@ -135,8 +302,8 @@
       \strng{authornamehash}{b8872f92cc87e35dee78c915037eddd8}
       \strng{authorfullhash}{b8872f92cc87e35dee78c915037eddd8}
       \strng{authorfullhashraw}{b8872f92cc87e35dee78c915037eddd8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Good Faith Collaboration: The Culture of Wikipedia}
@@ -161,8 +328,8 @@
       \strng{authornamehash}{941d2c45e987896039a4667e906e6529}
       \strng{authorfullhash}{941d2c45e987896039a4667e906e6529}
       \strng{authorfullhashraw}{941d2c45e987896039a4667e906e6529}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{First Monday}
@@ -635,8 +802,8 @@
       \strng{authornamehash}{11d1101292d2c414be103ff433d0f03c}
       \strng{authorfullhash}{11d1101292d2c414be103ff433d0f03c}
       \strng{authorfullhashraw}{11d1101292d2c414be103ff433d0f03c}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Untersuchungen über das Sonnenspektrum und die Spektren der chemischen Elemente}
@@ -667,8 +834,8 @@
       \strng{authornamehash}{a0bed8dbeec8d1cc48216777bb7dae35}
       \strng{authorfullhash}{a0bed8dbeec8d1cc48216777bb7dae35}
       \strng{authorfullhashraw}{a0bed8dbeec8d1cc48216777bb7dae35}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
@@ -705,8 +872,8 @@
       \strng{authornamehash}{da07760949eb9cf7af3231d1f20fb2dd}
       \strng{authorfullhash}{da07760949eb9cf7af3231d1f20fb2dd}
       \strng{authorfullhashraw}{da07760949eb9cf7af3231d1f20fb2dd}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2024-05-22}
@@ -735,8 +902,8 @@
       \strng{authornamehash}{ae46103fd34261e3700ab7a7d99ce351}
       \strng{authorfullhash}{ae46103fd34261e3700ab7a7d99ce351}
       \strng{authorfullhashraw}{ae46103fd34261e3700ab7a7d99ce351}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Physics Teacher}
