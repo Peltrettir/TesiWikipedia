@@ -338,7 +338,7 @@
       \field{volume}{19}
       \field{year}{2014}
     \endentry
-    \entry{history_of_wikis}{misc}{}{}
+    \entry{wikiwikiweb}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
            family={contributors},
@@ -360,16 +360,16 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2024-05-13}
-      \field{title}{History of wikis}
+      \field{title}{WikiWikiWeb}
       \field{year}{2023}
       \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/History_of_wikis
+      \verb https://en.wikipedia.org/wiki/WikiWikiWeb
       \endverb
       \verb{url}
-      \verb https://en.wikipedia.org/wiki/History_of_wikis
+      \verb https://en.wikipedia.org/wiki/WikiWikiWeb
       \endverb
     \endentry
-    \entry{wikiwikiweb}{misc}{}{}
+    \entry{history_of_wikis}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
            family={contributors},
@@ -391,13 +391,13 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2024-05-13}
-      \field{title}{WikiWikiWeb}
+      \field{title}{History of wikis}
       \field{year}{2023}
       \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/WikiWikiWeb
+      \verb https://en.wikipedia.org/wiki/History_of_wikis
       \endverb
       \verb{url}
-      \verb https://en.wikipedia.org/wiki/WikiWikiWeb
+      \verb https://en.wikipedia.org/wiki/History_of_wikis
       \endverb
     \endentry
     \entry{wikimedia_stats}{misc}{}{}
@@ -802,8 +802,8 @@
       \strng{authornamehash}{11d1101292d2c414be103ff433d0f03c}
       \strng{authorfullhash}{11d1101292d2c414be103ff433d0f03c}
       \strng{authorfullhashraw}{11d1101292d2c414be103ff433d0f03c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Untersuchungen über das Sonnenspektrum und die Spektren der chemischen Elemente}
@@ -834,8 +834,8 @@
       \strng{authornamehash}{a0bed8dbeec8d1cc48216777bb7dae35}
       \strng{authorfullhash}{a0bed8dbeec8d1cc48216777bb7dae35}
       \strng{authorfullhashraw}{a0bed8dbeec8d1cc48216777bb7dae35}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science}
